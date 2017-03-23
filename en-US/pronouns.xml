@@ -63,10 +63,10 @@
   <note>
     <para>
       If you are writing a use case and need to reference a fictional
-      human, it's common to use generic terms, such as a job title
-      instead of an arbitrary name, such as &#34;John&#34; or
-      &#34;Jane&#34;, and the pronoun &#34;they&#34; instead of
-      &#34;him&#34; or &#34;her&#34;.
+      human, use generic terms such as a job title, like systems
+      administrator or programmer, rather than an arbitrary name like
+      &#34;John&#34; or &#34;Jane&#34;. Use the pronoun &#34;they&#34;
+      instead of &#34;him&#34; or &#34;her&#34;.
     </para>
   </note>
   
@@ -93,40 +93,38 @@
   <para>
     Here are some examples&#58;
   </para>
+
   
-    <formalpara>
-      <title>Singular noun</title>
+  <bridgehead>Singular noun</bridgehead>
       
       <para>
 	When referring back to a singular noun, use the pronoun
 	<emphasis>it</emphasis>. For example&#58;
       </para>
-    </formalpara>
+  
       <para>
 	The server is running RHEL 7, and it has 8 TB of storage.
       </para>	
     
-    <formalpara>
-      <title>Plural pronouns</title>
+
+      <bridgehead>Plural pronouns</bridgehead>
 
       <para>
 	When referring back to a plural noun, use the pronoun
 	<emphasis>they</emphasis>. For example&#58;
       </para>
-    </formalpara>      
+
       <para>
 	Desktop computers often get used for office tasks, but they
-	can also be configured as servers for a small network.
+	can also be configured as servers.
       </para>
 
-    <formalpara>
-      <title>Possessive pronouns</title>
+      <bridgehead>Possessive pronouns</bridgehead>
       
       <para>
-	To indicate that a pronoun possesses something, use a
+	To indicate that a pronoun possesses something, use
 	the possessive form of the appropriate pronoun. For example&#58;
       </para>
-    </formalpara>
     
       <para>
 	Emacs is a text editor, but its real power is its LISP
@@ -142,9 +140,7 @@
 	scrutiny of anyone who wants to look at it.
       </para>
 
-
-    <formalpara>
-      <title>Pronouns in context</title>
+      <bridgehead>Pronouns in context</bridgehead>
       
       <para>
 	Sometimes a pronoun is used in a separate sentence from the
@@ -152,36 +148,33 @@
 	the reader to understand from context which noun the pronoun most
 	likely refers to. 
       </para>
-</formalpara>
-      <para>
-	Sometimes it is very obvious. In the phrase &#34;I like drinking coffee
-	while I sit and type at my computer. Sometimes, I even dunk a
-	doughnut into it,&#34; the reader knows from contextual clues
-	that the writer means &#34;Sometimes, I even dunk a doughnut
-	into my coffee&#34; and not &#34;Sometimes, I even dunk a
-	doughnut into my computer.&#34;
+
+      <para> Sometimes it is very obvious. In the phrase &#34;I like
+      drinking coffee while I sit and type at my computer. Sometimes,
+      I even dunk a doughnut into it,&#34; the reader knows from
+      contextual clues that the writer means &#34;Sometimes, I even
+      dunk a doughnut into my coffee&#34; and not &#34;Sometimes, I
+      even dunk a doughnut into my computer.&#34;
       </para>
 
       <para>
 	Sometimes it is less obvious. In the phrase &#34;The foo
-	command is working to replace the bar command. It is installed
-	by default, and it has a bug in it that erases all of your
-	data permanently, so must not be used,&#34; the reader cannot
-	know definitively which command erases all of their data and
-	which command is safe. Sometimes, using a pronoun is not as
+	command is being developed to replace the bar command. It is
+	installed by default, and it has a bug in it that erases all
+	of your data permanently,&#34; the reader cannot know
+	definitively which command erases all of their data and which
+	command is safe. Sometimes, using a pronoun is not as
 	effective as being explicit.
       </para>
     
-
-    <formalpara>
-      <title>Verify your pronouns</title>
+      <bridgehead>Verify your pronouns</bridgehead>
 
       <para>
 	To verify that a pronoun makes sense, reread a sentence or
 	paragraph, replacing the pronoun you chose with the subject&#58;
 	For example&#58;
       </para>
-    </formalpara>    
+
       <para>
 	Desktop computers often get used for office tasks, but desktop
 	computers can also be configured as servers for a small
@@ -195,7 +188,6 @@
 	because there is no indication of what the correct subject is,
 	then the pronoun has not been used correctly.
       </para>
-
   </section>
 
   <section id="pronouns_exercise">

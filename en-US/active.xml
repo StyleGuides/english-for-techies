@@ -21,12 +21,12 @@
     the person or thing performing an action:
   </para>
 
-  <formalpara>
-    <title>Active voice</title>
+
+    <bridgehead>Active voice</bridgehead>
+
     <para>
       I compiled the code.
     </para>
-  </formalpara>
   
   <para>
     The <firstterm>passive voice</firstterm> is the opposite of active
@@ -34,12 +34,11 @@
     person or thing receiving action:
   </para>
 
-  <formalpara>
-    <title>Passive voice</title>
-    <para>
-      The code was compiled by me.
-    </para>
-  </formalpara>
+
+  <bridgehead>Passive voice</bridgehead>
+  <para>
+    The code was compiled by me.
+  </para>
     
   <para>
     While the passive voice is not grammatically incorrect, it is less
