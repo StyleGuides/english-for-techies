@@ -50,55 +50,68 @@
     <emphasis>emphasized</emphasis>&#58;
   </para>
 
-  <para>
-    Each Linux user is mapped <emphasis>to</emphasis> an SELinux user
-    <emphasis>by</emphasis> a SELinux policy.
-  </para>
-  
-  <para> 
-    After configuring the guest NUMA node topology, specify the huge
-    page size and the guest NUMA nodeset <emphasis>in</emphasis> the &#60;memoryBacking&#62; element <emphasis>in</emphasis> the guest XML. 
-  </para>
+  <informalexample>
+    <para>
+      Each Linux user is mapped <emphasis>to</emphasis> an SELinux
+      user <emphasis>by</emphasis> a SELinux policy.
+    </para>
+  </informalexample>
+
+  <informalexample>
+    <para> 
+      After configuring the guest NUMA node topology, specify the huge
+      page size and the guest NUMA nodeset <emphasis>in</emphasis> the
+      &#60;memoryBacking&#62; element <emphasis>in</emphasis> the
+      guest XML.
+    </para>
+  </informalexample>
 
   <para>
     A prepositional phrase contains the object that relates to the
     noun being helped by the preposition. In the following examples,
     the prepositional phrases are in brackets &#40; &#91; and &#93; &#41;&#58;
   </para>
-  
-  <para>
-    Each Linux user is mapped &#91;<emphasis>to</emphasis> an SELinux user&#93;
-    &#91;<emphasis>by</emphasis> a SELinux policy&#93;.
-  </para>
-  
-  <para> 
-    After configuring the guest NUMA node topology, specify the huge
-    page size and the guest NUMA nodeset &#91;<emphasis>in</emphasis> the &#60;memoryBacking&#62; element&#93; &#91;<emphasis>in</emphasis> the guest XML&#93;.
-  </para>
 
+  <informalexample>
+    <para>
+      Each Linux user is mapped &#91;<emphasis>to</emphasis> an SELinux user&#93;
+      &#91;<emphasis>by</emphasis> a SELinux policy&#93;.
+    </para>
+  </informalexample>
+
+  <informalexample>
+    <para> 
+      After configuring the guest NUMA node topology, specify the huge
+      page size and the guest NUMA nodeset &#91;<emphasis>in</emphasis> the &#60;memoryBacking&#62; element&#93; &#91;<emphasis>in</emphasis> the guest XML&#93;.
+    </para>
+  </informalexample>
+  
   <section id="prepositions_tutorial">
-    <title>How to identify prepositional phrases</title>
+    <title>Identifying prepositional phrases</title>
 
   <para>
-    To find the prepositional phrase, locate the
+    To find a prepositional phrase, locate the
     preposition and then ask &#34;what?&#34;. For example&#58;
   </para>
 
-  <para>
-    Each Linux user is mapped <emphasis>to</emphasis> what?
-  </para>
+  <informalexample>
+    <para>
+      Each Linux user is mapped <emphasis>to</emphasis> what?
+    </para>
 
-  <para>
-    Each Linux user is mapped <emphasis>to</emphasis> an SELinux user
-    <emphasis>by</emphasis> what?
-  </para>
+    <para>
+      Each Linux user is mapped <emphasis>to</emphasis> an SELinux user
+      <emphasis>by</emphasis> what?
+    </para>
 
-  <para>
-    Each Linux user is mapped <emphasis>to</emphasis> an SELinux user
-    <emphasis>by</emphasis> a SELinux policy.
-  </para>
+    <para>
+      Each Linux user is mapped <emphasis>to</emphasis> an SELinux user
+      <emphasis>by</emphasis> a SELinux policy.
+    </para>
+  </informalexample>
   </section>
 
+  
   <section id="prepositions_tutorial">
     <title>Choosing the correct preposition</title>
 
@@ -122,14 +135,18 @@
 	    actions. For example&#58;
 	  </para>
 
-	  <para>
-	    Click the icon on the desktop.
-	  </para>
+	  <informalexample>
+	    <para>
+	      Click the icon on the desktop.
+	    </para>
+	  </informalexample>
 
-	  <para>
-	    Run the setup script on the
-	    <systemitem>workstation</systemitem> virtual machine.
-	  </para>	  
+	  <informalexample>
+	    <para>
+	      Run the setup script on the
+	      <systemitem>workstation</systemitem> virtual machine.
+	    </para>
+	  </informalexample>
 	</listitem>
       </varlistentry>
 
@@ -140,23 +157,30 @@
 	<listitem>
 	  <para>
 	    Literally, "inside", as when a cat sits inside of a
-	    box. In tech writing, "in" is used to express an action
-	    performed to a non-binary file, or to show membership to a
-	    group or system or network or framework. For example&#58;
+	    box, or when a number is found in a mathematical set. In
+	    tech writing, "in" is used to express an action performed to
+	    a non-binary file, or to show membership to a group or
+	    system or network or framework. For example&#58;
 	  </para>
 
-	  <para>
-	    Click the icon in the top right corner of the desktop.
-	  </para>
+	  <informalexample>
+	    <para>
+	      Click the icon in the upper-right corner of the desktop.
+	    </para>
+	  </informalexample>
 
-	  <para>
-	    Log in to the <systemitem>workstation</systemitem> virtual machine.
-	  </para>
+	  <informalexample>
+	    <para>
+	      Log in to the <systemitem>workstation</systemitem> virtual machine.
+	    </para>
+	  </informalexample>
 
-	  <para>
-	    The user managing the foo service
-	    must be in the wheel group.
-	  </para>
+	  <informalexample>
+	    <para>
+	      The user managing the foo service
+	      must be in the wheel group.
+	    </para>
+	  </informalexample>
 	</listitem>
       </varlistentry>
       
@@ -171,13 +195,17 @@
 	    something not yet reached. For example&#58;
 	  </para>
 
-	  <para>
-	    Drag the icon to the trash.
-	  </para>
+	  <informalexample>
+	    <para>
+	      Drag the file to the trash icon.
+	    </para>
+	  </informalexample>
 
-	  <para>
-	    Use SCP to copy the file to the server.
-	  </para>	  
+	  <informalexample>
+	    <para>
+	      Upload the file to the server.
+	    </para>
+	  </informalexample>
 	</listitem>
       </varlistentry>
 	    
@@ -187,21 +215,24 @@
 	</term>
 	<listitem>
 	  <para>
-	    Literally, "away", as when a cat comes indoors from the
-	    garden. The word "from" implies that you have been in one
-	    place, and are now leaving that
-	    place behind. For example&#58;
+	    Literally, "away", as when a cat comes indoors from
+	    the garden. The word "from" implies that you have been in
+	    one place, and are now leaving that place behind. For
+	    example&#58;
 	  </para>
 
-	  <para>
-	    If you do not want to delete the file, move the file icon
-	    from the trash.
-	  </para>
+	  <informalexample>
+	    <para>
+	      If you do not want to delete the file, move the file icon
+	      from the trash.
+	    </para>
+	  </informalexample>
 
-	  <para>
-	    Use <command>wget</command> to download the file from the
-	    server to your computer.
-	  </para>
+	  <informalexample>
+	    <para>
+	      Download the file from the server so you can edit it.
+	    </para>
+	  </informalexample>
 	</listitem>
       </varlistentry>
     </variablelist>

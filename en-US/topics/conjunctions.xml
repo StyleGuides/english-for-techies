@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+]>
+<chapter>
+  <title>
+    Conjunctions
+  </title>
+
+  <para>
+    A conjunction is a word that joins other words, phrases, parts of
+    sentences, or sentences together.
+  </para>
+
+  <variablelist>
+    <title>
+      Common conjunctions are&#58;
+    </title>
+    <varlistentry>
+      <term>
+	and
+      </term>
+      <listitem>
+	<para>
+	  Usually joins two positive or two negative ideas.
+	</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term>
+	but
+      </term>
+      <listitem>
+	<para>
+	  Used to connect two opposing statements.
+	</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term>
+	or
+      </term>
+      <listitem>
+	<para>
+	  Provides a choice between ideas.
+	</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term>
+	so
+      </term>
+      <listitem>
+	<para>
+	  Demonstrates an effect or a result, similar to
+	  <emphasis>then</emphasis> in an
+	  <code>if&#47;then</code> statement.
+	</para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+
+  <section id="conjunctions_tutorial">
+    <title>Transforming Conjunctions into Simple Sentences</title>
+
+    <para>
+      Conjunctions are an important part of effective writing, but
+      they add complexity to sentence structure. When writing
+      technical documentation, analyze whether a conjunction makes a
+      sentence more or less clear than two separate statements.      
+    </para>
+
+    <para>
+      This sentence can be understood, eventually, but it's
+      confusing&#58;
+    </para>
+
+    <informalexample>
+    <para>
+      Foo2Bar is a framework that makes it easy to create application
+      images, and takes application source code as an input, and
+      produces a new image that runs the assembled application in an
+      isolated sandbox.
+    </para>
+    </informalexample>
+    
+    <para> See how much clearer it is when written as three
+    separate sentences&#58;
+    </para>
+
+    <informalexample>
+    <para>
+      Foo2Bar is a framework that makes it easy to create application
+      images. It takes application source code to produce an
+      executable image. Foo2Bar images run in an isolated sandbox for
+      increased security.
+    </para>
+    </informalexample>
+    
+    <para>
+      Another example&#58;
+    </para>
+
+    <informalexample>
+    <para>
+      To distribute your modifications, gather the configuration
+      files, documentation files, all build materials, including build
+      scripts and scripts needed to dynamically generate makefiles,
+      and compiled binaries, and create a tar archive, or use the
+      <command>foopkg</command> command on the parent directory.
+    </para>
+    </informalexample>
+    
+    <para>
+      This becomes much clearer when rewritten with fewer
+      conjunctions&#58;
+    </para>
+
+    <informalexample>
+    <para>
+      There are two ways to distribute your modifications. You can
+      create a tar archive manually or you can use the
+      <command>foopkg</command> command. For each, you must include
+      all compiled binaries, configuration files, documentation, build
+      scripts, and scripts to dynamically generate makefiles.
+    </para>
+    </informalexample>
+  </section>
+  
+  <section id="conjunctions_tutorial_choose">
+    <title>Choosing the Right Conjunctions</title>
+
+    <para>
+      Sometimes conjunctions are the right choice, and in those cases
+      you must choose the correct conjunction. 
+    </para>
+
+    <bridgehead>But</bridgehead>
+    
+    <para>
+      The <emphasis>but</emphasis> conjunction is very inflexible. It
+      is appropriate when the two statements being connected are
+      exclusive of one another, These
+      two examples have very different meanings&#58;
+    </para>
+
+    <informalexample>
+      <para>
+	A car can drive but it cannot fly.
+      </para>
+    </informalexample>
+
+    <para>
+      Most importantly, <emphasis>but</emphasis> implies that two
+      statements are opposed even if they are not. Using
+      <emphasis>but</emphasis> incorrectly confuses readers. For
+      example, if you write&#58;
+    </para>
+
+    <informalexample>
+      <para>
+	Linux is open source but it is a stable, Enterprise-ready
+	platform.
+      </para>
+    </informalexample>
+
+    <para>
+      A reader probably interprets it to mean that Linux is
+      Enterprise-ready <emphasis>in spite of</emphasis> it being open
+      source. What you actually mean is that Linux is
+      <emphasis>both</emphasis> open source and Enterprise-ready.
+    </para>
+
+    <informalexample>
+      <para>
+	Linux is open source and is a stable, Enterprise-ready
+	platform.
+      </para>
+    </informalexample>
+    
+
+    <bridgehead>And</bridgehead>
+
+    <para>
+      The <emphasis>and</emphasis> conjunction connects two equally
+      true or equally false statements into one&#58;
+    </para>
+
+    <informalexample>
+      <para>
+	That hat is not red and it is not mine.
+      </para>
+
+      <para>
+	This fedora is red and it is mine.
+      </para>
+    </informalexample>
+
+    
+    <bridgehead>Or</bridgehead>
+
+    <para>
+      The <emphasis>or</emphasis> conjunction implies a choice between
+      the two statements it connects&#58;
+    </para>
+
+    <informalexample>
+      <para>
+	Run the <application>DHCP</application> daemon embedded on the
+	router or run your own on a server.
+      </para>
+    </informalexample>
+    
+    <para>
+      In the preceding statement, it's significant that you can use
+      either the embedded DHCP server or your own, because using both
+      could cause conflicts severe enough to bring down your
+      network. It would be inaccurate to use a different conjunction&#58;
+    </para>
+
+    <informalexample>
+      <para>
+	Run the <application>DHCP</application> daemon embedded on the
+	router and run your own on a server.
+      </para>
+    </informalexample>
+
+    <para>
+      In fact, for added emphasis, you can use
+      <emphasis>either</emphasis>&#58;
+    </para>
+
+    <informalexample>
+      <para>
+	Run either the <application>DHCP</application> daemon embedded
+	on the router or run your own on a server.
+      </para>
+    </informalexample>
+
+    
+    <bridgehead>So</bridgehead>
+
+    <para>
+      The <emphasis>so</emphasis> conjunction connects causes and
+      effects&#58;
+    </para>
+
+    <informalexample>
+      <para>
+	&RHELX; is the latest release. This server is running &RHEL6;, so it needs to be updated.
+      </para>
+    
+      <para>
+	This server is not running firewalld or SELinux, so it does not pass my security audit.  
+      </para>
+    </informalexample>
+  </section>
+  
+  <section id="conjunctions_exercise">
+    <title>Exercise</title>
+
+    <para>
+      Practice using the correct conjunction, or rewrite to use
+      no conjunction&#58;
+    </para>
+
+    <orderedlist>
+      <listitem>
+	<para>
+	  Linux is an excellent platform for development, but it is an
+	  excellent platform for deployment.
+	</para>
+      </listitem>
+
+      <listitem>
+	<para>
+	  Security-enhanced Linux (SELinux) is an implementation of a
+	  mandatory access control mechanism in the Linux kernel. It is an
+	  important part of system security. Do not disable SELinux, so
+	  use the <command>setenforce</command> command to put SELinux
+	  into permissive mode temporarily.
+	</para>
+      </listitem>
+
+      <listitem>
+	<para>
+	  Click the <guibutton>OK</guibutton> button to proceed to the
+	  next screen, and then click the <guilabel>Name</guilabel> link
+	  in the upper-left corner of the page or the
+	  <guilabel>Name</guilabel> selection in the
+	  <guilabel>Navigation</guilabel> drop-down menu in the
+	  upper-right corner of the page, and click the
+	  <guibutton>arrow</guibutton> icon to continue.
+	</para>
+      </listitem>
+    </orderedlist>
+  </section>
+  
+</chapter>
