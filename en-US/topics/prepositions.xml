@@ -75,7 +75,7 @@
   <informalexample>
     <para>
       Each Linux user is mapped &#91;<emphasis>to</emphasis> an SELinux user&#93;
-      &#91;<emphasis>by</emphasis> a SELinux policy&#93;.
+      &#91;<emphasis>by</emphasis> an SELinux policy&#93;.
     </para>
   </informalexample>
 
@@ -106,7 +106,7 @@
 
     <para>
       Each Linux user is mapped <emphasis>to</emphasis> an SELinux user
-      <emphasis>by</emphasis> a SELinux policy.
+      <emphasis>by</emphasis> an SELinux policy.
     </para>
   </informalexample>
   </section>
