@@ -53,12 +53,12 @@
   <informalexample>
     <para>
       Each Linux user is mapped <emphasis>to</emphasis> an SELinux
-      user <emphasis>by</emphasis> a SELinux policy.
+      user <emphasis>by</emphasis> an SELinux policy.
     </para>
   </informalexample>
 
   <informalexample>
-    <para> 
+    <para>
       After configuring the guest NUMA node topology, specify the huge
       page size and the guest NUMA nodeset <emphasis>in</emphasis> the
       &#60;memoryBacking&#62; element <emphasis>in</emphasis> the
@@ -80,12 +80,12 @@
   </informalexample>
 
   <informalexample>
-    <para> 
+    <para>
       After configuring the guest NUMA node topology, specify the huge
       page size and the guest NUMA nodeset &#91;<emphasis>in</emphasis> the &#60;memoryBacking&#62; element&#93; &#91;<emphasis>in</emphasis> the guest XML&#93;.
     </para>
   </informalexample>
-  
+
   <section id="prepositions_tutorial">
     <title>Identifying prepositional phrases</title>
 
@@ -111,8 +111,8 @@
   </informalexample>
   </section>
 
-  
-  <section id="prepositions_tutorial">
+
+  <section id="prepositions_choosing">
     <title>Choosing the correct preposition</title>
 
     <para>
@@ -183,7 +183,7 @@
 	  </informalexample>
 	</listitem>
       </varlistentry>
-      
+
       <varlistentry>
 	<term>
 	  to
@@ -208,7 +208,7 @@
 	  </informalexample>
 	</listitem>
       </varlistentry>
-	    
+
       <varlistentry>
 	<term>
 	  from
@@ -237,7 +237,7 @@
       </varlistentry>
     </variablelist>
   </section>
-  
+
   <section id="prepositions_exercise">
     <title>Exercise</title>
 

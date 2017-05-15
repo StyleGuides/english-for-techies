@@ -3,7 +3,7 @@
 ]>
 <chapter>
   <title>
-    Using the right possessive 
+    Using the right possessive
   </title>
 
   <para>
@@ -14,7 +14,7 @@
     <title>
       Converting nouns into possessive nouns
     </title>
-    
+
   <para>
     These are the different rules for converting nouns into their possessive forms&#58;
   </para>
@@ -108,7 +108,7 @@
       Do not give your password to anyone.
     </para>
     </informalexample>
-    
+
   <para>
     If a pronoun refers to a nonhuman, use <emphasis>its</emphasis>&#58;
   </para>
@@ -163,7 +163,7 @@
 	</informalexample>
 
 	<para>
-	  In this example, it makes no sense to say &#34;re-seat it is RAM.&#34; Obviously, the writer intended to use <emphasis>its</emphasis>. 
+	  In this example, it makes no sense to say &#34;re-seat it is RAM.&#34; Obviously, the writer intended to use <emphasis>its</emphasis>.
 	</para>
       </listitem>
       <listitem>
@@ -172,7 +172,7 @@
 	</para>
       </listitem>
     </orderedlist>
-    
+
     <para>
       The following <command>grep</command> statement checks for <emphasis>it&#39;s</emphasis> in a file&#58;
     </para>
@@ -182,7 +182,7 @@
     </screen>
 
   </section>
-  <section id="possessive_its">
+  <section id="possessive_your">
     <title>
       Using <emphasis>your</emphasis> and <emphasis>you&#39;re</emphasis>
     </title>
@@ -190,7 +190,7 @@
     <para>
       The words <emphasis>your</emphasis> and
       <emphasis>you&#39;re</emphasis> also get confused for one
-      another in writing. 
+      another in writing.
     </para>
 
     <para>
@@ -219,7 +219,7 @@
 	  </para>
 	</informalexample>
 	<para>
-	  In this example, it makes no sense to say &#34;you are single-button mouse.&#34; Obviously, the writer intended to use <emphasis>your</emphasis>. 
+	  In this example, it makes no sense to say &#34;you are single-button mouse.&#34; Obviously, the writer intended to use <emphasis>your</emphasis>.
 	</para>
       </listitem>
       <listitem>
@@ -228,7 +228,7 @@
 	</para>
       </listitem>
     </orderedlist>
-    
+
     <para>
       The following <command>grep</command> statement checks for <emphasis>you&#39;re</emphasis> in a file&#58;
     </para>
@@ -265,7 +265,7 @@
 
       <listitem>
 	<para>
-	  The library's and binary's maintainer forgot to upload the packages.  
+	  The library's and binary's maintainer forgot to upload the packages.
 	</para>
       </listitem>
 
