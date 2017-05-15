@@ -12,3 +12,6 @@ To build all formats:
 
     $ publican build --langs=en-US --format=html,pdf,html-single,txt,epub
 
+## To read:
+
+If you don't want to build this from source, find the latest build in the ''dist'' folder.
