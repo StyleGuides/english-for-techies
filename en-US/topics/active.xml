@@ -156,7 +156,7 @@
 	  <para>
 	    It was presented earlier in this book the syntax for using
 	    XML configuration files with a Python module imported into
-	    the <application>PyFoo</application> code base.
+	    the <application>PyShadowman</application> code base.
 	  </para>
 	</listitem>
       </varlistentry>
@@ -167,12 +167,15 @@
 	</term>
 	<listitem>
 	  <para>
-	    The syntax for XML configuration, and the steps to import
-	    the required module into 
-	    <application>PyFoo</application>, were explained in
-	    the <ulink url="#">Importing the BeautifulSoup module</ulink>
+	    The steps to import the required module into
+	    <application>PyShadowman</application> were explained in the
+	    <ulink url="#">Importing the BeautifulSoup Module</ulink>
 	    section.
 	  </para>
+	  <!-- to make that passive, it would be something like: "It
+	       was explained in the Importing the BeautifulSoup Module
+	       section, the steps to import the required module into
+	       PyShadowman." -->
 	</listitem>
       </varlistentry>
 
@@ -187,6 +190,13 @@
       </para>
 
       <orderedlist>
+	<listitem>
+	  <para>
+	    <!-- Do NOT correct this. It is intentionally wrong. -->
+	    The server got rebooted.
+	  </para>
+	</listitem>
+		
 	<listitem>
 	  <para>
 	    <!-- Do NOT correct this. It is intentionally wrong. -->
@@ -209,6 +219,23 @@
 	    RHSM registration on each machine.
 	  </para>
 	</listitem>
+
+	<listitem>
+	  <para>
+	    <!-- Do NOT correct this. It is intentionally wrong. -->
+	    The virtual machine should be started before attempting to
+	    ping it.
+	  </para>
+	</listitem>
+
+ 	<listitem>
+	  <para>
+	    <!-- Do NOT correct this. It is intentionally wrong. -->
+	    The open source Mumble audio chat application should be used to
+	    provide technical support to users.
+	  </para>
+	</listitem>
+
       </orderedlist>
 
   </section>
