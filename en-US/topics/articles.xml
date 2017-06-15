@@ -24,8 +24,7 @@
 	refer to a all instances of something. For example:
       </para>
       <para>
-	Use the <code>for</code> loop from the code sample to iterate
-	over each file.
+	The <code>for</code> loop is a common programming construct.
       </para>
     </listitem>
   </itemizedlist>
