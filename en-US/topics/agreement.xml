@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+]>
+<chapter>
+  <title>
+    Writing nouns and verbs that agree with each other
+  </title>
+
+  <para>
+    Nouns, pronouns, and verbs all have singular and plural forms. The
+    subject of a sentence and its verb must
+    <firstterm>agree</firstterm> on whether they are each singular or
+    plural. When you write a singular noun coupled with a singular
+    verb, or a plural noun with a plural verb, they are in agreement.
+  </para>
+
+  <para>
+    For example, this sentence uses a subject and verb that are in
+    agreement, because the subject <emphasis>hard drive</emphasis> is
+    singular, and so is its verb <emphasis>is</emphasis>&#58;
+  </para>
+  
+  <informalexample>
+    <para>
+      Your hard drive is in the laptop.
+    </para>
+  </informalexample>
+
+  <para>
+    This sentence demonstrates a subject and verb that do not agree,
+    because the subject <emphasis>hard drive</emphasis> is singular
+    but its <emphasis>are</emphasis> is plural&#58;
+  </para>
+
+  <informalexample>
+    <para>
+      Your hard drive are in the laptop.
+    </para>
+  </informalexample>
+
+  <para>
+    Here are the rules for subject and verb agreement&#58;
+  </para>
+
+  <variablelist>
+    <title>
+      Subject and verb agreement
+    </title>
+    <varlistentry>
+      <term>
+	Singular subject
+      </term>
+      <listitem>
+	<para>
+	  Use a singular verb for a singular subject.
+	</para>
+
+	<informalexample>
+	  <para>
+	    The <emphasis>httpd daemon</emphasis>
+	    <emphasis>is</emphasis> active and enabled.
+	  </para>
+	</informalexample>
+
+	<para>
+	  The verb must agree with the noun, regardless of a noun's
+	  adjectives or clauses. For instance, the noun
+	  <emphasis>database</emphasis> is singular and gets a
+	  singular verb, even though there are plural modifiers
+	  describing the subject&#58;
+	</para>
+	
+	<informalexample>
+	  <para>
+	    A <emphasis>database</emphasis> of customers and sales
+	    people <emphasis>is</emphasis> stored on the server.
+	  </para>
+	</informalexample>	
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term>
+	Either or
+      </term>
+      <listitem>
+	<para>
+	  Use a singular verb when giving a choice between singular subjects.
+	</para>
+
+	<informalexample>
+	  <para>
+	    Either <emphasis>IPv4</emphasis> or <emphasis>IPv6</emphasis>
+	    <emphasis>is</emphasis> supported by this project.
+	  </para>
+	</informalexample>	
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term>
+	Compound singular subject
+      </term>
+      <listitem>
+	<para>
+	  Use a plural verb for a sentence with more than one singular subjects.
+	</para>
+
+	<informalexample>
+	  <para>
+	    The <emphasis>httpd daemon</emphasis> and the
+	    <emphasis>rsync daemon</emphasis> <emphasis>are</emphasis>
+	    active and enabled.
+	  </para>
+	</informalexample>	
+      </listitem>
+    </varlistentry>
+
+        <varlistentry>      
+      <term>
+	Plural subject
+      </term>
+      <listitem>
+	<para>
+	  Use a plural verb for a plural subject.
+	</para>
+
+	<informalexample>
+	  <para>
+	    The <emphasis>emails</emphasis> <emphasis>are</emphasis> encrypted.
+	  </para>
+
+	  <para>
+	    Ansible projects and their playbooks are key tools in DevOps.
+	  </para>
+	</informalexample>
+      </listitem>
+    </varlistentry>
+
+  </variablelist>
+</chapter>
