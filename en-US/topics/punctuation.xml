@@ -450,4 +450,21 @@
       </informalexample>
       
     </section>
+
+    <section id="punctuation-exercise">
+      <title>Exercise</title>
+
+      <para>
+	Add missing punctuation where necessary.
+      </para>
+      
+      <orderedlist>
+	<listitem>
+	  <para>
+	    If all of the file's data has been deleted the file can
+	    be reclaimed and reused by the broker.
+	  </para>
+	</listitem>
+      </orderedlist>
+    </section>
   </chapter>
