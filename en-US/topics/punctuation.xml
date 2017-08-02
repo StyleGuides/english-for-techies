@@ -471,6 +471,42 @@
 	    This controls the application's behavior on transaction boundaries such as commit, or rollback.
 	  </para>
 	</listitem>
+
+	<listitem>
+	  <para>
+	    One major concern for administrators when considering data
+	    integrity of a broker's persistent data is whether or not
+	    the disk that is backing the broker is using a write
+	    cache.
+	  </para>
+	</listitem>
+	    
+	<listitem>
+	  <para>
+	    The broker creates as many files as needed but when it is
+	    reclaiming space it shrinks the number of journal files
+	    back to the <systemitem>journal-pool=files</systemitem> number.
+	  </para>
+	</listitem>
+
+      	<listitem>
+	  <para>
+	    Notice that this time the error message is made available to
+	    the application, even after foo was restarted.
+	  </para>
+	</listitem>
+
+	<listitem>
+	  <para>
+            Use the <command>mysql</command> command-line interface to
+            log in and select the log data from the <code>foo</code>
+            database.
+	  </para>
+	  <!-- solutions: "Using the mysql command-line interface, log in and select the log data..."
+	       or
+	       "Use the mysql command-line interface to log in. Select the log data..." -->
+	</listitem>
+	
       </orderedlist>
-    </section>
+      </section>
   </chapter>
