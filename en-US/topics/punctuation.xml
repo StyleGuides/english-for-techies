@@ -465,6 +465,12 @@
 	    be reclaimed and reused by the broker.
 	  </para>
 	</listitem>
+
+	<listitem>
+	  <para>
+	    This controls the application's behavior on transaction boundaries such as commit, or rollback.
+	  </para>
+	</listitem>
       </orderedlist>
     </section>
   </chapter>
