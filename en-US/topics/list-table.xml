@@ -19,6 +19,82 @@
     important, use an itemized list.
   </para>
 
+<section id="list-punc">
+    <title>Stems</title> 
+
+    <para>
+      Avoid using bullet point lists to format a single sentence. Some translation tools, for example
+      Zanata, display list items and the introductory sentence (or <emphasis>sentence stem</emphasis>) as individual sentences for
+      translation. If these are not complete sentences, they are difficult to translate.
+    </para>
+
+    		 <table>
+			<title></title>
+			 <tgroup cols="2" colsep="1" rowsep="1">
+				<colspec colname="c1"></colspec>
+				 <colspec colname="c2"></colspec>
+				 <thead>
+					<row>
+						<entry> Example </entry>
+						 <entry> Improvement </entry>
+
+					</row>
+
+				</thead>
+				 <tbody>
+					<row>
+						<entry> <para>
+							Before you start the installation, make sure you have
+						</para>
+						 <itemizedlist>
+							<listitem>
+								<para>
+									enough free storage on your system
+								</para>
+
+							</listitem>
+							 <listitem>
+								<para>
+									backed up any data that you want to keep
+								</para>
+
+							</listitem>
+
+						</itemizedlist>
+						 <para>
+							to ensure a smooth installation.
+						</para>
+						 </entry>
+						 <entry> <para>
+							Before you start the installation, follow these steps to ensure a smooth installation:
+						</para>
+						 <itemizedlist>
+							<listitem>
+								<para>
+									Ensure you have enough free storage on your system.
+								</para>
+
+							</listitem>
+							 <listitem>
+								<para>
+									Back up any data that you want to keep.
+								</para>
+
+							</listitem>
+
+						</itemizedlist>
+						 </entry>
+
+					</row>
+
+				</tbody>
+
+			</tgroup>
+
+		</table>
+
+</section>
+      
   <section id="list-punc">
     <title>Punctuation</title> 
 
@@ -294,4 +370,5 @@
 
     
   </section>
+
 </chapter>
