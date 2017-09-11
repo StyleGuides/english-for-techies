@@ -23,12 +23,12 @@
 
 
   <programlisting><![CDATA[
-    &#60;note role="References"> &#60;para> Additional information may be available in the chapter
+    <note role="References"> <para> Additional information may be available in the chapter
     on Kickstart installation in the
-    &#60;emphasis>Red Hat Enterprise Linux Installation Guide&#60;/emphasis> for Red&nbsp;Hat
-    Enterprise&nbsp;Linux&nbsp;7, which can be found at &#60;ulink
+    <emphasis>Red Hat Enterprise Linux Installation Guide</emphasis> for Red&nbsp;Hat
+    Enterprise&nbsp;Linux&nbsp;7, which can be found at <ulink
     url="https://access.redhat.com/documentation/en-US/index.html"/>
-    &#60;/para>&#60;/note>
+    </para></note>
   ]]></programlisting>
 
   
@@ -54,12 +54,12 @@
 
 
   <programlisting><![CDATA[
-    &#60;note role="References">
-      &#60;para>
-	&#60;ulink url="http://docs.fedoraproject.org/en-US/
-		    Fedora_Contributor_Documentation/1/html/Users_Guide/">Publican Users Guide&#60;/ulink>
-      &#60;/para>
-    &#60;/note>
+    <note role="References">
+      <para>
+	<ulink url="http://docs.fedoraproject.org/en-US/
+		    Fedora_Contributor_Documentation/1/html/Users_Guide/">Publican Users Guide</ulink>
+      </para>
+    </note>
   ]]></programlisting>
 
   
