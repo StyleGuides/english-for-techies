@@ -14,10 +14,11 @@
   </para>
 
   <para>
-    There are, broadly, two different types of lists: the ordered list
-    and the itemized list. When a reader must follow the items in a
-    list sequentially, use an ordered list. If sequence is not
-    important, use an itemized list.
+    There are, broadly, three different types of lists: the ordered
+    list, the itemized list, and the variable list. When a reader must
+    follow the items in a list sequentially, use an ordered list. If
+    sequence is not important, use an itemized list. When defining a
+    list of terms, use the variable list.
   </para>
 
 <section id="list-stem">
@@ -249,7 +250,48 @@
     <title>Key-value lists</title>
     
     <para>
-      Some lists exist mostly to define terms. Delimiters separating a term from its definition can be confused as being a part of the term, so it is best to define terms in complete sentences, and with appropriate Docbook tags.
+      If you are writing a list that exists only to define terms, use a variable list.
+    </para>
+
+    <informalexample>
+    <variablelist>
+
+      <varlistentry>
+	<term>example.com</term>
+	<listitem>
+	  <para>
+	    A domain reserved as a safe example URL. This is the correct way to define a term in a list.
+	  </para>
+	</listitem>
+      </varlistentry>
+
+      <varlistentry>
+	<term>example.local</term>
+	<listitem>
+	  <para>
+	    A domain that exists only within a local network.
+	  </para>
+	</listitem>
+      </varlistentry>
+
+      <varlistentry>
+	<term>cat</term>
+	<listitem>
+	  <para>
+	    The concatenate command.
+	  </para>
+	</listitem>
+      </varlistentry>
+    </variablelist>
+    </informalexample>
+    
+    <para>
+      Sometimes your list definitions do not contain exclusively
+      simple terms to be defined, so you have to use an itemized list
+      to allow for mixed list items. Delimiters separating a term
+      from its definition can be confused as being a part of the term,
+      so it is best to define terms in complete sentences, and with
+      appropriate Docbook tags.
     </para>
 
     <informalexample>
