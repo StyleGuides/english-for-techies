@@ -180,8 +180,10 @@
     <para>
       Most of all, strive for consistency. If a list contains two list
       items that are complete sentences, and a third that is just a
-      single word, then change the single word list item into a simple
-      sentence so that it matches the other items.
+      single word, you should restructure your list. For example,
+      change the single word list item into a simple sentence so that
+      it matches the other items. Alternately, review whether the
+      items in your list belong in a list together.
     </para>
 
   </section>
@@ -229,21 +231,57 @@
       <itemizedlist>
 	<listitem>
 	  <para>
-	    Students gain an understanding of the Linux init system.
+	    Gain an understanding of the Linux init system.
 	  </para>
 	</listitem>
 	<listitem>
 	  <para>
-	    Students learn how to use the <command>systemctl</command> command to start, stop, and monitor services.
+	    Learn how to use the <command>systemctl</command> command to start, stop, and monitor services.
 	  </para>
 	</listitem>
 	<listitem>
 	  <para>
-	    Students create a simple chroot for testing.
+	    Create a simple chroot for testing.
 	  </para>
 	</listitem>
       </itemizedlist>
     </informalexample>
+
+    <para>
+      This is called <emphasis>parallelism</emphasis>, and should be
+      applied across all lists within the same book.  
+    </para>
+
+    <para>
+      A list that constantly changes sentence structure is confusing&#58;
+    </para>
+    
+    <informalexample>
+      <itemizedlist>
+	<listitem>
+	<para>
+	  Use to specify the X variable.
+	</para>
+	</listitem>
+	<listitem>
+	  <para>
+	    Specifies which value to apply to Y.
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    You can use this to change the config from a POSIX shell.
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </informalexample>
+
+    <para>
+      It is easier to understand when a list maintains the same voice
+      throughout. A reader might refer to several lists or tables
+      within a book, so ensuring a consistent voice in every list or
+      table helps readers quickly parse important information.
+    </para>
   </section>
   
   <section id="list-var">
