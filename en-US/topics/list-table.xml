@@ -285,7 +285,7 @@
   </section>
   
   <section id="list-var">
-    <title>Key-value lists</title>
+    <title>Key-Value Lists</title>
     
     <para>
       If you are writing a list that exists only to define terms, use a variable list.

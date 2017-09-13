@@ -3,7 +3,7 @@
 ]>
 <chapter id="ref">
   <title>
-    Creating reference sections
+    Creating Reference Sections
   </title>
 
   <para>
@@ -11,7 +11,7 @@
   </para>
 
   <section id="ref_rh">
-    <title>Referencing Red Hat docs within an admonition</title>
+    <title>Referencing Red Hat Docs within an Admonition</title>
 
   <para>
     Red&nbsp;Hat documentation published on docs.redhat.com does not
@@ -43,7 +43,7 @@
   </section>
 
   <section id="ref_ext">
-    <title>Generic Referencing within an admonition</title>
+    <title>Generic Referencing within an Admonition</title>
 
   <para>
     For links pointing to documentation external of Red&nbsp;Hat, link

@@ -33,7 +33,7 @@
 
   <section id="punctuation-dot">
     <title>
-      Period, full-stop, dot
+      Period, Full-stop, Dot
     </title>
 
   <para>
@@ -302,23 +302,12 @@
 	TCP/IP, DHCP, and DNS.
       </para>
     </informalexample>
-
-    <para>
-      In most cases, however, a colon is just as suitable&#58;
-    </para>
-
-        <informalexample>
-      <para>
-	The Internet relies on several open source technologies:
-	TCP/IP, DHCP, and DNS.
-      </para>
-    </informalexample>
     </section>
 
 
     <section id="punctuation-paren">
     <title>
-      Parentheses, round brackets
+      Parentheses, Rounded Brackets
     </title>
 
     <para>
@@ -394,7 +383,7 @@
     </section>
 
     <section id="punctuation-question">
-      <title>Question marks</title>
+      <title>Question Marks</title>
 
       <para>
 	Question marks are specific to sentences that pose a
@@ -428,7 +417,7 @@
     </section>
 
     <section id="punctuation-quote">
-      <title>Quotation marks</title>
+      <title>Quotation Marks</title>
 
       <para>
 	Quotation marks represent something someone has said, or in some cases, something that people often say.
