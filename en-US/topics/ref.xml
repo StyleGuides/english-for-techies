@@ -21,25 +21,19 @@
     topic that the reader needs to look for.
   </para>
 
+<programlisting><![CDATA[
+<note role="References">
+  <para>
+      See the chapter on Kickstart installation in the <ulink url="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Installation_Guide/index.html"><citetitle>Red&nbsp;Hat Enterprise Linux&nbsp;7 Installation Guide</citetitle></ulink>
+  </para>
+</note> 
+]]></programlisting>
 
-  <programlisting><![CDATA[
-    <note role="References"> <para> Additional information may be available in the chapter
-    on Kickstart installation in the
-    <emphasis>Red Hat Enterprise Linux Installation Guide</emphasis> for Red&nbsp;Hat
-    Enterprise&nbsp;Linux&nbsp;7, which can be found at <ulink
-    url="https://access.redhat.com/documentation/en-US/index.html"/>
-    </para></note>
-  ]]></programlisting>
-
-  
-  <note role="References">
-    <para> Additional information may be available in the chapter
-    on Kickstart installation in the
-    <emphasis>Red&nbsp;Hat Enterprise&nbsp;Linux Installation Guide</emphasis> for Red&nbsp;Hat
-    Enterprise&nbsp;Linux&nbsp;7, which can be found at <ulink
-    url="https://access.redhat.com/documentation/en-US/index.html"/>
-    </para>
-  </note>
+<note role="References">
+  <para>
+      See the chapter on Kickstart installation in the <ulink url="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Installation_Guide/index.html"><citetitle>Red&nbsp;Hat Enterprise Linux&nbsp;7 Installation Guide</citetitle></ulink>
+  </para>
+</note>
   </section>
 
   <section id="ref_ext">
