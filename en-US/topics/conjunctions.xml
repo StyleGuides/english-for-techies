@@ -69,7 +69,7 @@
       Conjunctions are an important part of effective writing, but
       they add complexity to sentence structure. When writing
       technical documentation, analyze whether a conjunction makes a
-      sentence more or less clear than two separate statements.      
+      sentence more or less clear than two separate statements.
     </para>
 
     <para>
@@ -85,7 +85,7 @@
       isolated sandbox.
     </para>
     </informalexample>
-    
+
     <para> See how much clearer it is when written as three
     separate sentences&#58;
     </para>
@@ -98,7 +98,7 @@
       increased security.
     </para>
     </informalexample>
-    
+
     <para>
       Another example&#58;
     </para>
@@ -112,7 +112,7 @@
       <command>foopkg</command> command on the parent directory.
     </para>
     </informalexample>
-    
+
     <para>
       This becomes much clearer when rewritten with fewer
       conjunctions&#58;
@@ -128,17 +128,17 @@
     </para>
     </informalexample>
   </section>
-  
+
   <section id="conjunctions_tutorial_choose">
     <title>Choosing the Right Conjunctions</title>
 
     <para>
       Sometimes conjunctions are the right choice, and in those cases
-      you must choose the correct conjunction. 
+      you must choose the correct conjunction.
     </para>
 
     <bridgehead>But</bridgehead>
-    
+
     <para>
       The <emphasis>but</emphasis> conjunction is very inflexible. It
       is appropriate when the two statements being connected are
@@ -179,7 +179,7 @@
 	platform.
       </para>
     </informalexample>
-    
+
 
     <bridgehead>And</bridgehead>
 
@@ -198,7 +198,7 @@
       </para>
     </informalexample>
 
-    
+
     <bridgehead>Or</bridgehead>
 
     <para>
@@ -212,7 +212,7 @@
 	router or run your own on a server.
       </para>
     </informalexample>
-    
+
     <para>
       In the preceding statement, it's significant that you can use
       either the embedded DHCP server or your own, because using both
@@ -239,7 +239,7 @@
       </para>
     </informalexample>
 
-    
+
     <bridgehead>So</bridgehead>
 
     <para>
@@ -249,15 +249,15 @@
 
     <informalexample>
       <para>
-	&RHELX; is the latest release. This server is running &RHEL6;, so it needs to be updated.
+	RHEL&nbsp;8; is the latest release. This server is running RHEL&nbsp;6, so it needs to be updated.
       </para>
-    
+
       <para>
-	This server is not running firewalld or SELinux, so it does not pass my security audit.  
+	This server is not running firewalld or SELinux, so it does not pass my security audit.
       </para>
     </informalexample>
   </section>
-  
+
   <section id="conjunctions_exercise">
     <title>Exercise</title>
 
@@ -297,5 +297,5 @@
       </listitem>
     </orderedlist>
   </section>
-  
+
 </chapter>

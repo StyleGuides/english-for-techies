@@ -69,7 +69,7 @@
       instead of &#34;him&#34; or &#34;her&#34;.
     </para>
   </note>
-  
+
   <section id="pronouns_tutorial">
     <title>How to Use Pronouns</title>
 
@@ -94,7 +94,7 @@
     Here are some examples&#58;
   </para>
 
-  
+
   <bridgehead>Singular noun</bridgehead>
 
   <informalexample>
@@ -106,11 +106,11 @@
 
   <informalexample>
     <para>
-      The server is running &RHEL7;, and it has 8 TB of storage.
-    </para>	
+      The server is running RHEL&nbsp;7, and it has 8&nbsp;TB of storage.
+    </para>
   </informalexample>
 
-  
+
   <bridgehead>Plural pronouns</bridgehead>
 
     <para>
@@ -124,9 +124,9 @@
 	can also be configured as servers.
       </para>
     </informalexample>
-    
+
       <bridgehead>Possessive pronouns</bridgehead>
-      
+
       <para>
 	To indicate that a pronoun possesses something, use
 	the possessive form of the appropriate pronoun. For example&#58;
@@ -138,7 +138,7 @@
 	  interpreter.
 	</para>
       </informalexample>
-      
+
       <para>
 	The same applies for plural forms&#58;
       </para>
@@ -151,9 +151,9 @@
       </informalexample>
 
       <para>
-	You may have both singular and plural in a sentence&#58; 
+	You may have both singular and plural in a sentence&#58;
       </para>
-      
+
       <informalexample>
 	<para>
 	  Your colleagues may run Windows or MacOS on their computers,
@@ -161,14 +161,14 @@
 	</para>
       </informalexample>
 
-      
+
       <bridgehead>Pronouns in context</bridgehead>
-      
+
       <para>
 	Sometimes a pronoun is used in a separate sentence than the
 	one establishing the noun being referenced. This relies on
 	the reader to understand from context which noun the pronoun most
-	likely refers to. 
+	likely refers to.
       </para>
 
       <para>
@@ -215,7 +215,7 @@
 	<command>foo</command> is the dangerous command and that
 	<command>bar</command> is the safe command.
       </para>
-    
+
       <bridgehead>Verifying pronouns</bridgehead>
 
       <para>
@@ -234,9 +234,9 @@
 	  Desktop computers often get used for office tasks, but
 	  desktop computers can also be configured as servers for a
 	  small network.
-	</para>	
+	</para>
       </informalexample>
-      
+
       <para>
 	If it does not make sense, or if it impossible to read back
 	with its subject replaced because there is no indication of
@@ -277,7 +277,7 @@
 	  variables.
 	</para>
       </informalexample>
-      
+
   </section>
 
   <section id="pronouns_exercise">
@@ -316,6 +316,6 @@
 	</para>
       </listitem>
     </orderedlist>
-      
+
   </section>
 </chapter>
