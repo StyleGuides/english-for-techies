@@ -1,285 +1,229 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "English_for_Techies.ent">
+%BOOK_ENTITIES;
 ]>
-<chapter>
-  <title>
-    Using the Correct Possessive
-  </title>
-
-  <para>
-    The possessive form indicates ownership. Nouns and pronouns have possessive forms.
-  </para>
-
-  <section id="possessive_nouns">
-    <title>
-      Converting Nouns into Possessive Nouns
-    </title>
-
-  <para>
-    These are the different rules for converting nouns into their possessive forms&#58;
-  </para>
-
-  <variablelist>
-    <varlistentry>
-      <term>
-	Add <emphasis>&#39;s</emphasis> to singular nouns:
-      </term>
-      <listitem>
-	<para>
-	  An <emphasis>administrators&#39;s</emphasis> computer.
+<chapter id="chap-Documentation-English_for_Techies-_Using_the_Correct_Possessive_">
+	<title> Using the Correct Possessive </title>
+	 <para>
+		The possessive form indicates ownership. Nouns and pronouns have possessive forms.
 	</para>
-	<para>
-	  A software <emphasis>project&#39;s</emphasis> blog.
-	</para>
-      </listitem>
-    </varlistentry>
-    <varlistentry>
-      <term>
-	Add a lone <emphasis>&#39;</emphasis> to the end of a plural noun that all ready ends in <emphasis>s</emphasis>:
-      </term>
-      <listitem>
-	<para>
-	  Update all of the <emphasis>students&#39;</emphasis> computers.
-	</para>
-	<para>
-	  Email each of the <emphasis>projects&#39;</emphasis> reports to the project manager.
-	</para>
-      </listitem>
-    </varlistentry>
-    <varlistentry>
-      <term>
-	Treat plural nouns that do not end in <emphasis>s</emphasis> the same as a singular noun&#58;
-      </term>
-      <listitem>
-	<para>
-	  Install Linux on all of the <emphasis>children&#39;s</emphasis> computers.
-	</para>
-	<para>
-	  Bring those <emphasis>people&#39;s</emphasis> laptops in for repair.
-	</para>
-      </listitem>
-    </varlistentry>
-    <varlistentry>
-      <term>
-	If a noun is compound, convert only the final noun to its possessive form&#58;
-      </term>
-      <listitem>
-	<para>
-	  Install Linux on <emphasis>admin and manager&#39;s</emphasis> computers.
-	</para>
-	<para>
-	  Bring the <emphasis>student and teachers&#39;</emphasis> laptops in for repair.
-	</para>
-      </listitem>
-	</varlistentry>
-  </variablelist>
+	 <section id="sect-Documentation-English_for_Techies-_Using_the_Correct_Possessive_-_Converting_Nouns_into_Possessive_Nouns_">
+		<title> Converting Nouns into Possessive Nouns </title>
+		 <para>
+			These are the different rules for converting nouns into their possessive forms:
+		</para>
+		 <variablelist>
+			<varlistentry id="varl-Documentation-English_for_Techies-_Converting_Nouns_into_Possessive_Nouns_-_Add_s_to_singular_nouns_">
+				<term> Add <emphasis>'s</emphasis> to singular nouns: </term>
+				 <listitem>
+					<para>
+						An <emphasis>administrators's</emphasis> computer.
+					</para>
+					 <para>
+						A software <emphasis>project's</emphasis> blog.
+					</para>
 
-  </section>
+				</listitem>
 
-  <section id="possessive_pronouns">
-    <title>
-      Converting Pronouns into Possessive Pronouns
-    </title>
+			</varlistentry>
+			 <varlistentry id="varl-Documentation-English_for_Techies-_Converting_Nouns_into_Possessive_Nouns_-_Add_a_lone_to_the_end_of_a_plural_noun_that_all_ready_ends_in_s_">
+				<term> Add a lone <emphasis>'</emphasis> to the end of a plural noun that all ready ends in <emphasis>s</emphasis>: </term>
+				 <listitem>
+					<para>
+						Update all of the <emphasis>students'</emphasis> computers.
+					</para>
+					 <para>
+						Email each of the <emphasis>projects'</emphasis> reports to the project manager.
+					</para>
 
-  <para>
-    Pronouns have their own special possessive forms, separate from their root words. In technical writing, the gender neutral ones are the most common&#58;
-  </para>
+				</listitem>
 
-  <para>
-    For personal ownership in the third person, use <emphasis>their</emphasis>, whether it refers to a singular or plural noun&#58;
-  </para>
+			</varlistentry>
+			 <varlistentry id="varl-Documentation-English_for_Techies-_Converting_Nouns_into_Possessive_Nouns_-_Treat_plural_nouns_that_do_not_end_in_s_the_same_as_a_singular_noun_">
+				<term> Treat plural nouns that do not end in <emphasis>s</emphasis> the same as a singular noun: </term>
+				 <listitem>
+					<para>
+						Install Linux on all of the <emphasis>children's</emphasis> computers.
+					</para>
+					 <para>
+						Bring those <emphasis>people's</emphasis> laptops in for repair.
+					</para>
 
-  <informalexample>
-    <para>
-      Give your user a GPG key so that their email can be encrypted.
-    </para>
+				</listitem>
 
-    <para>
-      Give all of your users GPG keys so that their emails can be encrypted.
-    </para>
-  </informalexample>
+			</varlistentry>
+			 <varlistentry id="varl-Documentation-English_for_Techies-_Converting_Nouns_into_Possessive_Nouns_-_If_a_noun_is_compound_convert_only_the_final_noun_to_its_possessive_form_">
+				<term> If a noun is compound, convert only the final noun to its possessive form: </term>
+				 <listitem>
+					<para>
+						Install Linux on <emphasis>admin and manager's</emphasis> computers.
+					</para>
+					 <para>
+						Bring the <emphasis>student and teachers'</emphasis> laptops in for repair.
+					</para>
 
-  <para>
-    For personal ownership in the second person, use <emphasis>your</emphasis>&#58;
-  </para>
+				</listitem>
 
-    <informalexample>
-    <para>
-      Do not give your password to anyone.
-    </para>
-    </informalexample>
+			</varlistentry>
 
-  <para>
-    If a pronoun refers to a nonhuman, use <emphasis>its</emphasis>&#58;
-  </para>
+		</variablelist>
 
-  <informalexample>
-    <para>
-      Post the checksum of an RPM so its integrity is verifiable by users.
-    </para>
-  </informalexample>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Using_the_Correct_Possessive_-_Converting_Pronouns_into_Possessive_Pronouns_">
+		<title> Converting Pronouns into Possessive Pronouns </title>
+		 <para>
+			Pronouns have their own special possessive forms, separate from their root words. In technical writing, the gender neutral ones are the most common:
+		</para>
+		 <para>
+			For personal ownership in the third person, use <emphasis>their</emphasis>, whether it refers to a singular or plural noun:
+		</para>
+		 <informalexample> <para>
+			Give your user a GPG key so that their email can be encrypted.
+		</para>
+		 <para>
+			Give all of your users GPG keys so that their emails can be encrypted.
+		</para>
+		 </informalexample> <para>
+			For personal ownership in the second person, use <emphasis>your</emphasis>:
+		</para>
+		 <informalexample> <para>
+			Do not give your password to anyone.
+		</para>
+		 </informalexample> <para>
+			If a pronoun refers to a nonhuman, use <emphasis>its</emphasis>:
+		</para>
+		 <informalexample> <para>
+			Post the checksum of an RPM so its integrity is verifiable by users.
+		</para>
+		 </informalexample> <para>
+			The plural form of <emphasis>its</emphasis> is also <emphasis>their</emphasis>:
+		</para>
+		 <informalexample> <para>
+			Post the checksums of all your RPM packages so that their integrity is verifiable.
+		</para>
+		 </informalexample> <section id="sect-Documentation-English_for_Techies-_Converting_Pronouns_into_Possessive_Pronouns_-_Using_Its_and_Its_">
+			<title> Using <emphasis>Its</emphasis> and <emphasis>It's</emphasis> </title>
+			 <para>
+				The words <emphasis>its</emphasis> and <emphasis>it's</emphasis> notoriously get confused for one another in writing. You don't think about the words when you speak, because they're pronounced exactly the same way, but when you write them, it matters which one you use.
+			</para>
+			 <para>
+				There are two simple rules you can use to remember which to use:
+			</para>
+			 <orderedlist>
+				<listitem>
+					<para>
+						The word <emphasis>it's</emphasis>, like all contractions, is a combination of two words: <emphasis>it</emphasis> and <emphasis>is</emphasis>. Whenever you see <emphasis>it's</emphasis> in a sentence, replace it with <emphasis>it is</emphasis>. If it does not make sense, then it is not used correctly. For example:
+					</para>
+					 <informalexample> <para>
+						Open the computer and re-seat it's RAM.
+					</para>
+					 <para>
+						Open the computer and re-seat it is RAM.
+					</para>
+					 </informalexample> <para>
+						In this example, it makes no sense to say "re-seat it is RAM." Obviously, the writer intended to use <emphasis>its</emphasis>.
+					</para>
 
-  <para>
-    The plural form of <emphasis>its</emphasis> is also <emphasis>their</emphasis>&#58;
-  </para>
+				</listitem>
+				 <listitem>
+					<para>
+						In technical documentation, contractions are generally avoided. Use <emphasis>its</emphasis> as a possessive pronoun, and use <emphasis>it is</emphasis> instead of <emphasis>it's</emphasis>.
+					</para>
 
-  <informalexample>
-    <para>
-      Post the checksums of all your RPM packages so that their integrity is verifiable.
-    </para>
-  </informalexample>
+				</listitem>
 
-  <section id="possessive_its">
-    <title>
-      Using <emphasis>Its</emphasis> and <emphasis>It&#39;s</emphasis>
-    </title>
+			</orderedlist>
+			 <para>
+				The following <command>grep</command> statement checks for <emphasis>it's</emphasis> in a file:
+			</para>
+			 
+<screen>
+      <prompt>&amp;</prompt> <command>grep</command> <option>-iE</option> "it's" <filename>filename.xml</filename></screen>
 
-    <para>
-      The words <emphasis>its</emphasis> and
-      <emphasis>it&#39;s</emphasis> notoriously get confused for one
-      another in writing. You don&#39;t think about the words when you
-      speak, because they're pronounced exactly the same way, but when
-      you write them, it matters which one you use.
-    </para>
+		</section>
+		 <section id="sect-Documentation-English_for_Techies-_Converting_Pronouns_into_Possessive_Pronouns_-_Using_Your_and_Youre_">
+			<title> Using <emphasis>Your</emphasis> and <emphasis>You're</emphasis> </title>
+			 <para>
+				The words <emphasis>your</emphasis> and <emphasis>you're</emphasis> also get confused for one another in writing.
+			</para>
+			 <para>
+				The same rules about <emphasis>its</emphasis> and <emphasis>it's</emphasis> apply to <emphasis>your</emphasis> and <emphasis>you're</emphasis>. To reiterate:
+			</para>
+			 <orderedlist>
+				<listitem>
+					<para>
+						The word <emphasis>you're</emphasis>, like all contractions, is a combination of two words: <emphasis>you</emphasis> and <emphasis>are</emphasis>. Whenever you see <emphasis>you're</emphasis> in a sentence, replace it with <emphasis>you are</emphasis>. If it does not make sense, then it is not used correctly:
+					</para>
+					 <informalexample> <para>
+						To get the most out of a Linux desktop, replace <emphasis>you're</emphasis> single-button mouse with a three-button mouse.
+					</para>
+					 <para>
+						To get the most out of a Linux desktop, replace <emphasis>you are</emphasis> single-button mouse with a three-button mouse.
+					</para>
+					 </informalexample> <para>
+						In this example, it makes no sense to say "you are single-button mouse." Obviously, the writer intended to use <emphasis>your</emphasis>.
+					</para>
 
-    <para>
-      There are two simple rules you can use to remember which to use&#58;
-    </para>
+				</listitem>
+				 <listitem>
+					<para>
+						In technical documentation, contractions are generally avoided. Use <emphasis>your</emphasis> as a possessive pronoun, and use <emphasis>you are</emphasis> instead of <emphasis>you're</emphasis>.
+					</para>
 
-    <orderedlist>
-      <listitem>
-	<para>
-	  The word <emphasis>it&#39;s</emphasis>, like all contractions, is a combination of two words&#58; <emphasis>it</emphasis> and <emphasis>is</emphasis>. Whenever you see <emphasis>it&#39;s</emphasis> in a sentence, replace it with <emphasis>it is</emphasis>. If it does not make sense, then it is not used correctly. For example&#58;
-	</para>
+				</listitem>
 
-	<informalexample>
-	  <para>
-	    Open the computer and re-seat it&#39;s RAM.
-	  </para>
+			</orderedlist>
+			 <para>
+				The following <command>grep</command> statement checks for <emphasis>you're</emphasis> in a file:
+			</para>
+			 
+<screen>
+      <prompt>&amp;</prompt> <command>grep</command> <option>-iE</option> "you're" <filename>filename.xml</filename></screen>
 
-	  <para>
-	    Open the computer and re-seat it is RAM.
-	  </para>
-	</informalexample>
+		</section>
 
-	<para>
-	  In this example, it makes no sense to say &#34;re-seat it is RAM.&#34; Obviously, the writer intended to use <emphasis>its</emphasis>.
-	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  In technical documentation, contractions are generally avoided. Use <emphasis>its</emphasis> as a possessive pronoun, and use <emphasis>it is</emphasis> instead of <emphasis>it&#39;s</emphasis>.
-	</para>
-      </listitem>
-    </orderedlist>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Using_the_Correct_Possessive_-_Exercise_">
+		<title> Exercise </title>
+		 <para>
+			Rewrite these sentences, as needed, using the correct possessive forms:
+		</para>
+		 <orderedlist>
+			<listitem>
+				<para>
+					Press the <guibutton>Enter</guibutton> key to convert the file and view it on its screen.
+				</para>
 
-    <para>
-      The following <command>grep</command> statement checks for <emphasis>it&#39;s</emphasis> in a file&#58;
-    </para>
+			</listitem>
+			 <listitem>
+				<para>
+					Linux and BSD both use monolithic kernels as its basis.
+				</para>
 
-    <screen>
-      <prompt>&#38;</prompt> <command>grep</command> <option>-iE</option> &#34;it&#39;s&#34; <filename>filename.xml</filename>
-    </screen>
+			</listitem>
+			 <listitem>
+				<para>
+					The library's and binary's maintainer forgot to upload the packages.
+				</para>
 
-  </section>
-  <section id="possessive_your">
-    <title>
-      Using <emphasis>Your</emphasis> and <emphasis>You&#39;re</emphasis>
-    </title>
+			</listitem>
+			 <listitem>
+				<para>
+					Have each user activate two-factor authentication on his account.
+				</para>
 
-    <para>
-      The words <emphasis>your</emphasis> and
-      <emphasis>you&#39;re</emphasis> also get confused for one
-      another in writing.
-    </para>
+			</listitem>
+			 <listitem>
+				<para>
+					You must use <application>mutt</application> as the email client.
+				</para>
 
-    <para>
-      The same rules about <emphasis>its</emphasis> and <emphasis>it&#39;s</emphasis> apply to <emphasis>your</emphasis> and <emphasis>you&#39;re</emphasis>. To reiterate&#58;
-    </para>
+			</listitem>
 
-    <orderedlist>
-      <listitem>
-	<para>
-	  The word <emphasis>you&#39;re</emphasis>, like all
-	  contractions, is a combination of two words&#58;
-	  <emphasis>you</emphasis> and
-	  <emphasis>are</emphasis>. Whenever you see
-	  <emphasis>you&#39;re</emphasis> in a sentence, replace it
-	  with <emphasis>you are</emphasis>. If it does not make
-	  sense, then it is not used correctly&#58;
-	</para>
+		</orderedlist>
 
-	<informalexample>
-	  <para>
-	    To get the most out of a Linux desktop, replace <emphasis>you&#39;re</emphasis> single-button mouse with a three-button mouse.
-	  </para>
+	</section>
 
-	  <para>
-	    To get the most out of a Linux desktop, replace <emphasis>you are</emphasis> single-button mouse with a three-button mouse.
-	  </para>
-	</informalexample>
-	<para>
-	  In this example, it makes no sense to say &#34;you are single-button mouse.&#34; Obviously, the writer intended to use <emphasis>your</emphasis>.
-	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  In technical documentation, contractions are generally avoided. Use <emphasis>your</emphasis> as a possessive pronoun, and use <emphasis>you are</emphasis> instead of <emphasis>you&#39;re</emphasis>.
-	</para>
-      </listitem>
-    </orderedlist>
+</chapter>
 
-    <para>
-      The following <command>grep</command> statement checks for <emphasis>you&#39;re</emphasis> in a file&#58;
-    </para>
-
-    <screen>
-      <prompt>&#38;</prompt> <command>grep</command> <option>-iE</option> &#34;you&#39;re&#34; <filename>filename.xml</filename>
-    </screen>
-
-  </section>
-
-</section>
-
-  <section id="possessive_exercise">
-    <title>
-      Exercise
-    </title>
-
-    <para>
-      Rewrite these sentences, as needed, using the correct possessive forms&#58;
-    </para>
-
-    <orderedlist>
-      <listitem>
-	<para>
-	  Press the <guibutton>Enter</guibutton> key to convert the file and view it on its screen.
-	</para>
-      </listitem>
-
-      <listitem>
-	<para>
-	  Linux and BSD both use monolithic kernels as its basis.
-	</para>
-      </listitem>
-
-      <listitem>
-	<para>
-	  The library's and binary's maintainer forgot to upload the packages.
-	</para>
-      </listitem>
-
-      <listitem>
-	<para>
-	  Have each user activate two-factor authentication on his account.
-	</para>
-      </listitem>
-
-      <listitem>
-	<para>
-	  You must use <application>mutt</application> as the email client.
-	</para>
-      </listitem>
-    </orderedlist>
-  </section>
-  </chapter>

@@ -1,283 +1,199 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "English_for_Techies.ent">
+%BOOK_ENTITIES;
 ]>
-<chapter>
-  <title>
-    Prepositions
-  </title>
-
-  <para>
-    Prepositions answer the question &#34;which one?&#34;, &#34;what
-    kind?&#34;, &#34;how much?&#34;, or &#34;how many?&#34; about a
-    noun. A preposition is a helper word for nouns, explaining
-    which noun is being written about in a sentence.
-  </para>
-
-  <para>
-    Common prepositions include&#58;
-  </para>
-
-  <itemizedlist>
-    <listitem>
-      <para>
-	on
-      </para>
-    </listitem>
-    <listitem>
-      <para>
-	in
-      </para>
-    </listitem>
-    <listitem>
-      <para>
-	from
-      </para>
-    </listitem>
-    <listitem>
-      <para>
-	to
-      </para>
-    </listitem>
-    <listitem>
-      <para>
-	at
-      </para>
-    </listitem>
-  </itemizedlist>
-
-  <para>
-    For example, in these sentences, the prepositions are
-    <emphasis>emphasized</emphasis>&#58;
-  </para>
-
-  <informalexample>
-    <para>
-      Each Linux user is mapped <emphasis>to</emphasis> an SELinux
-      user <emphasis>by</emphasis> an SELinux policy.
-    </para>
-  </informalexample>
-
-  <informalexample>
-    <para>
-      After configuring the guest NUMA node topology, specify the huge
-      page size and the guest NUMA nodeset <emphasis>in</emphasis> the
-      &#60;memoryBacking&#62; element <emphasis>in</emphasis> the
-      guest XML.
-    </para>
-  </informalexample>
-
-  <para>
-    A prepositional phrase contains the object that relates to the
-    noun being helped by the preposition. In the following examples,
-    the prepositional phrases are in brackets &#40; &#91; and &#93; &#41;&#58;
-  </para>
-
-  <informalexample>
-    <para>
-      Each Linux user is mapped &#91;<emphasis>to</emphasis> an SELinux user&#93;
-      &#91;<emphasis>by</emphasis> an SELinux policy&#93;.
-    </para>
-  </informalexample>
-
-  <informalexample>
-    <para>
-      After configuring the guest NUMA node topology, specify the huge
-      page size and the guest NUMA nodeset &#91;<emphasis>in</emphasis> the &#60;memoryBacking&#62; element&#93; &#91;<emphasis>in</emphasis> the guest XML&#93;.
-    </para>
-  </informalexample>
-
-  <section id="prepositions_tutorial">
-    <title>Identifying Prepositional Phrases</title>
-
-  <para>
-    To find a prepositional phrase, locate the
-    preposition and then ask &#34;what?&#34;. For example&#58;
-  </para>
-
-  <informalexample>
-    <para>
-      Each Linux user is mapped <emphasis>to</emphasis> what?
-    </para>
-
-    <para>
-      Each Linux user is mapped <emphasis>to</emphasis> an SELinux user
-      <emphasis>by</emphasis> what?
-    </para>
-
-    <para>
-      Each Linux user is mapped <emphasis>to</emphasis> an SELinux user
-      <emphasis>by</emphasis> an SELinux policy.
-    </para>
-  </informalexample>
-  </section>
-
-
-  <section id="prepositions_choosing">
-    <title>Choosing the Correct Preposition</title>
-
-    <para>
-      In English, each preposition has a specific meaning. Using the
-      wrong preposition confuses a reader, or even changes the meaning
-      of a sentence. Choosing the right one to lead your prepositional
-      phase is important.
-    </para>
-
-    <variablelist>
-      <varlistentry>
-	<term>
-	  on
-	</term>
-	<listitem>
-	  <para>
-	    Literally, "on top of", as when a cat sits on a mat. In
-	    tech writing, "on" is used to express an action performed
-	    at a computer you have logged in to, and some GUI
-	    actions. For example&#58;
-	  </para>
-
-	  <informalexample>
-	    <para>
-	      Click the icon on the desktop.
-	    </para>
-	  </informalexample>
-
-	  <informalexample>
-	    <para>
-	      Run the setup script on the
-	      <systemitem>workstation</systemitem> virtual machine.
-	    </para>
-	  </informalexample>
-	</listitem>
-      </varlistentry>
-
-      <varlistentry>
-	<term>
-	  in
-	</term>
-	<listitem>
-	  <para>
-	    Literally, "inside", as when a cat sits inside of a
-	    box, or when a number is found in a mathematical set. In
-	    tech writing, "in" is used to express an action performed to
-	    a non-binary file, or to show membership to a group or
-	    system or network or framework. For example&#58;
-	  </para>
-
-	  <informalexample>
-	    <para>
-	      Click the icon in the upper-right corner of the desktop.
-	    </para>
-	  </informalexample>
-
-	  <informalexample>
-	    <para>
-	      Log in to the <systemitem>workstation</systemitem> virtual machine.
-	    </para>
-	  </informalexample>
-
-	  <informalexample>
-	    <para>
-	      The user managing the foo service
-	      must be in the wheel group.
-	    </para>
-	  </informalexample>
-	</listitem>
-      </varlistentry>
-
-      <varlistentry>
-	<term>
-	  to
-	</term>
-	<listitem>
-	  <para>
-	    Literally, "toward", as when a cat walks to its food. The
-	    word "to" implies that you are moving in the direction of
-	    something not yet reached. For example&#58;
-	  </para>
-
-	  <informalexample>
-	    <para>
-	      Drag the file to the trash icon.
-	    </para>
-	  </informalexample>
-
-	  <informalexample>
-	    <para>
-	      Upload the file to the server.
-	    </para>
-	  </informalexample>
-	</listitem>
-      </varlistentry>
-
-      <varlistentry>
-	<term>
-	  from
-	</term>
-	<listitem>
-	  <para>
-	    Literally, "away", as when a cat comes indoors from
-	    the garden. The word "from" implies that you have been in
-	    one place, and are now leaving that place behind. For
-	    example&#58;
-	  </para>
-
-	  <informalexample>
-	    <para>
-	      If you do not want to delete the file, move the file icon
-	      from the trash.
-	    </para>
-	  </informalexample>
-
-	  <informalexample>
-	    <para>
-	      Download the file from the server so you can edit it.
-	    </para>
-	  </informalexample>
-	</listitem>
-      </varlistentry>
-    </variablelist>
-  </section>
-
-  <section id="prepositions_exercise">
-    <title>Exercise</title>
-
-    <para>
-      Identify the prepositions and prepositional phrases, if they
-      exist, in each sentence&#58;
-    </para>
-
-    <orderedlist>
-      <listitem>
-	<para>
-	  The configuration file is installed in the
-	  <filename>&#47;etc</filename> directory.
+<chapter id="chap-Documentation-English_for_Techies-_Prepositions_">
+	<title> Prepositions </title>
+	 <para>
+		Prepositions answer the question "which one?", "what kind?", "how much?", or "how many?" about a noun. A preposition is a helper word for nouns, explaining which noun is being written about in a sentence.
 	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  Set the required parameters in the fields under the
-	  <guilabel>Performance options</guilabel> panel.
+	 <para>
+		Common prepositions include:
 	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  The <command>foo</command> command instructs the kernel to
-	  pipe the core dump to the
-	  <application>abrt-hook-ccpp</application> program.
+	 <itemizedlist>
+		<listitem>
+			<para>
+				on
+			</para>
+
+		</listitem>
+		 <listitem>
+			<para>
+				in
+			</para>
+
+		</listitem>
+		 <listitem>
+			<para>
+				from
+			</para>
+
+		</listitem>
+		 <listitem>
+			<para>
+				to
+			</para>
+
+		</listitem>
+		 <listitem>
+			<para>
+				at
+			</para>
+
+		</listitem>
+
+	</itemizedlist>
+	 <para>
+		For example, in these sentences, the prepositions are <emphasis>emphasized</emphasis>:
 	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  In Red Hat Enterprise Linux 7, the <command>systemctl</command> utility
-	  replaces a number of power management commands used in
-	  previous versions of the Red Hat Enterprise Linux system.
+	 <informalexample> <para>
+		Each Linux user is mapped <emphasis>to</emphasis> an SELinux user <emphasis>by</emphasis> an SELinux policy.
 	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  Log in to the <systemitem>workstation</systemitem> virtual machine.
+	 </informalexample> <informalexample> <para>
+		After configuring the guest NUMA node topology, specify the huge page size and the guest NUMA nodeset <emphasis>in</emphasis> the &lt;memoryBacking&gt; element <emphasis>in</emphasis> the guest XML.
 	</para>
-      </listitem>
-    </orderedlist>
-  </section>
+	 </informalexample> <para>
+		A prepositional phrase contains the object that relates to the noun being helped by the preposition. In the following examples, the prepositional phrases are in brackets ( [ and ] ):
+	</para>
+	 <informalexample> <para>
+		Each Linux user is mapped [<emphasis>to</emphasis> an SELinux user] [<emphasis>by</emphasis> an SELinux policy].
+	</para>
+	 </informalexample> <informalexample> <para>
+		After configuring the guest NUMA node topology, specify the huge page size and the guest NUMA nodeset [<emphasis>in</emphasis> the &lt;memoryBacking&gt; element] [<emphasis>in</emphasis> the guest XML].
+	</para>
+	 </informalexample> <section id="sect-Documentation-English_for_Techies-_Prepositions_-Identifying_Prepositional_Phrases">
+		<title>Identifying Prepositional Phrases</title>
+		 <para>
+			To find a prepositional phrase, locate the preposition and then ask "what?". For example:
+		</para>
+		 <informalexample> <para>
+			Each Linux user is mapped <emphasis>to</emphasis> what?
+		</para>
+		 <para>
+			Each Linux user is mapped <emphasis>to</emphasis> an SELinux user <emphasis>by</emphasis> what?
+		</para>
+		 <para>
+			Each Linux user is mapped <emphasis>to</emphasis> an SELinux user <emphasis>by</emphasis> an SELinux policy.
+		</para>
+		 </informalexample>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Prepositions_-Choosing_the_Correct_Preposition">
+		<title>Choosing the Correct Preposition</title>
+		 <para>
+			In English, each preposition has a specific meaning. Using the wrong preposition confuses a reader, or even changes the meaning of a sentence. Choosing the right one to lead your prepositional phase is important.
+		</para>
+		 <variablelist>
+			<varlistentry id="varl-Documentation-English_for_Techies-Choosing_the_Correct_Preposition-_on_">
+				<term> on </term>
+				 <listitem>
+					<para>
+						Literally, "on top of", as when a cat sits on a mat. In tech writing, "on" is used to express an action performed at a computer you have logged in to, and some GUI actions. For example:
+					</para>
+					 <informalexample> <para>
+						Click the icon on the desktop.
+					</para>
+					 </informalexample> <informalexample> <para>
+						Run the setup script on the <systemitem>workstation</systemitem> virtual machine.
+					</para>
+					 </informalexample>
+				</listitem>
+
+			</varlistentry>
+			 <varlistentry id="varl-Documentation-English_for_Techies-Choosing_the_Correct_Preposition-_in_">
+				<term> in </term>
+				 <listitem>
+					<para>
+						Literally, "inside", as when a cat sits inside of a box, or when a number is found in a mathematical set. In tech writing, "in" is used to express an action performed to a non-binary file, or to show membership to a group or system or network or framework. For example:
+					</para>
+					 <informalexample> <para>
+						Click the icon in the upper-right corner of the desktop.
+					</para>
+					 </informalexample> <informalexample> <para>
+						Log in to the <systemitem>workstation</systemitem> virtual machine.
+					</para>
+					 </informalexample> <informalexample> <para>
+						The user managing the foo service must be in the wheel group.
+					</para>
+					 </informalexample>
+				</listitem>
+
+			</varlistentry>
+			 <varlistentry id="varl-Documentation-English_for_Techies-Choosing_the_Correct_Preposition-_to_">
+				<term> to </term>
+				 <listitem>
+					<para>
+						Literally, "toward", as when a cat walks to its food. The word "to" implies that you are moving in the direction of something not yet reached. For example:
+					</para>
+					 <informalexample> <para>
+						Drag the file to the trash icon.
+					</para>
+					 </informalexample> <informalexample> <para>
+						Upload the file to the server.
+					</para>
+					 </informalexample>
+				</listitem>
+
+			</varlistentry>
+			 <varlistentry id="varl-Documentation-English_for_Techies-Choosing_the_Correct_Preposition-_from_">
+				<term> from </term>
+				 <listitem>
+					<para>
+						Literally, "away", as when a cat comes indoors from the garden. The word "from" implies that you have been in one place, and are now leaving that place behind. For example:
+					</para>
+					 <informalexample> <para>
+						If you do not want to delete the file, move the file icon from the trash.
+					</para>
+					 </informalexample> <informalexample> <para>
+						Download the file from the server so you can edit it.
+					</para>
+					 </informalexample>
+				</listitem>
+
+			</varlistentry>
+
+		</variablelist>
+
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Prepositions_-Exercise">
+		<title>Exercise</title>
+		 <para>
+			Identify the prepositions and prepositional phrases, if they exist, in each sentence:
+		</para>
+		 <orderedlist>
+			<listitem>
+				<para>
+					The configuration file is installed in the <filename>/etc</filename> directory.
+				</para>
+
+			</listitem>
+			 <listitem>
+				<para>
+					Set the required parameters in the fields under the <guilabel>Performance options</guilabel> panel.
+				</para>
+
+			</listitem>
+			 <listitem>
+				<para>
+					The <command>foo</command> command instructs the kernel to pipe the core dump to the <application>abrt-hook-ccpp</application> program.
+				</para>
+
+			</listitem>
+			 <listitem>
+				<para>
+					In Red Hat Enterprise Linux 7, the <command>systemctl</command> utility replaces a number of power management commands used in previous versions of the Red Hat Enterprise Linux system.
+				</para>
+
+			</listitem>
+			 <listitem>
+				<para>
+					Log in to the <systemitem>workstation</systemitem> virtual machine.
+				</para>
+
+			</listitem>
+
+		</orderedlist>
+
+	</section>
 </chapter>
+

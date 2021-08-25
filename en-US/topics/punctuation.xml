@@ -1,501 +1,266 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "English_for_Techies.ent">
+%BOOK_ENTITIES;
 ]>
-<chapter id="punctuation">
-  <title>
-    Punctuating Sentences Correctly
-  </title>
-
-  <para>
-    Punctuation is important because it defines the scope of sentences
-    and clauses. Using punctuation incorrectly can confuse the reader
-    or even change the meaning of a sentence.
-  </para>
-
-  <bridgehead>Example</bridgehead>
-
-  <para>
-    In the interest of clarity, this is a simple example&#58;
-  </para>
-
-  <informalexample>
-    <para>
-      Let&#39;s program everyone.
-    </para>
-  </informalexample>
-
-  <para>
-    Taken as written, that sentence means &#34;let us take
-    everyone and program them with code&#34; but probably what the
-    writer intended is &#34;Hey, everybody, let&#39;s go write
-    code&#33;&#34;
-  </para>
-
-  <section id="punctuation-dot">
-    <title>
-      Period, Full-stop, Dot
-    </title>
-
-  <para>
-    The most basic punctuation mark is the
-    <firstterm>period</firstterm> or <firstterm>dot</firstterm>,
-    sometimes called a <firstterm>full-stop</firstterm>. The period
-    signals the end of a complete sentence. It gives the reader a
-    chance to process whatever information was contained in a
-    sentence.
-  </para>
-
-  <para>
-    A common misuse of a period is ending a sentence before it is
-    complete. A complete sentence in English requires a subject and a
-    verb in an independent clause.
-  </para>
-
-  <para>
-    This is a complete sentence because it has a subject and a verb&#58;
-  </para>
-  
-  <informalexample>
-    <para>
-      Computers calculate.
-    </para>
-  </informalexample>
-  
-  <para>
-    This is not a complete sentence because, while it does
-    include a subject and a verb, it is not an independent clause&#58;
-  </para>
- 
-  <informalexample>
-    <para>
-      Boot the computer and then.
-    </para>
-  </informalexample>
-
-  <para>
-    Periods are more than just technical requirements to end a sentence, though. They help simplify complex concepts by breaking them down into small chunks of information that are easier for the reader to process.
-  </para>
-
-  <para>
-    This sentence is complex&#58;
-  </para>
-
-  <informalexample>
-    <para>
-      Before launching the Foo service, you must ensure that your user
-      is a member of the <systemitem>foo</systemitem> group by opening
-      a terminal and using the <command>usermod</command> command to
-      append the group to your user's group membership (see the
-      <command>usermod</command> man page for more information) and
-      then logging out so that the new group list is loaded, then
-      start the service with the <command>systemctl</command> command
-      or with the included startup script.
-    </para>
-  </informalexample>
-
-  <para>
-    It is much easier to understand when broken into smaller sentences&#58;
-  </para>
-
-  <informalexample>
-    <para>
-      Before launching the Foo service, you must ensure that your user
-      is a member of the <systemitem>foo</systemitem> group. To add
-      your user to the foo group, open a terminal. In your terminal
-      window, use the <command>usermod</command> command to append the
-      group to your user's group membership. If you are unfamiliar
-      with <command>usermod</command>, refer to its man page. After
-      you have added your user to the group, you must log out and then
-      log back in so that your group membership is refreshed. To
-      confirm membership, use the <command>groups</command>
-      command. To start the service, use the
-      <command>systemctl</command> command, or the included startup
-      script.
-    </para>
-  </informalexample>
-
-  <para>
-    It is a lot of information, and probably ought to be made formally
-    numbered steps, but replacing commas and conjunctions with periods
-    is an important first step toward simplification.
-  </para>
-
-  </section>
-
-
-  <section id="punctuation-comma">
-    <title>
-      Comma
-    </title>
-
-    <para>
-      The comma is used to separate items in a list, or to separate
-      independent sentence clauses.
-    </para>
-
-    <bridgehead>Lists</bridgehead>
-    
-    <para>
-      A list is a series of individual words meant to be taken as a
-      group. For clarity, use a comma between each unique item in a
-      list, even the final item.
-    </para>
-
-    <informalexample>
-      <para>
-	For this project, you must use Emacs, XML, and xsltproc.
-      </para>
-    </informalexample>
-
-    <para>
-      Intentionally omitting a comma implies an association within a list. For example&#58;
-    </para>
-
-        <informalexample>
-      <para>
-	For this project, you must use Emacs, XML and the Docbook
-	schema, and FOP.
-      </para>
-    </informalexample>
-
-    <para>
-      In this example, not using a comma between
-      <emphasis>XML</emphasis> and <emphasis>the Docbook
-      schema</emphasis> implies to the reader that they will only be
-      using XML by using Docbook, but won't need a deep understanding
-      of how XML works in general.
-    </para>
-
-    <bridgehead>Clauses</bridgehead>
-
-    <para>
-      Commas are also used to separate sentence clauses. A sentence
-      clause is some segment of a complete sentence. A clause might be
-      a complete sentence, or it might be dependent on the rest of the
-      sentence to make sense.
-    </para>
-
-    <tip>
-      <para>
-	Dependent clauses are artifacts of complex sentences. If you
-	write with minimalism in mind, you write fewer dependent
-	clauses. If you write fewer dependent clauses, you have fewer
-	commas to worry about.
-      </para>
-    </tip>
-
-    <para>
-      This sentence consists of two clauses. One is independent and the other dependent&#58;
-    </para>
-
-    <informalexample>
-      <para>
-	I use the open source Mumble audio chat application to provide technical support to my users.
-      </para>
-    </informalexample>
-
-    <para>
-      To know where to place a comma, you must identify sentence
-      clauses. The easiest way to identify a clause is to find the
-      essential parts of the sentence. In the example, "I use the open
-      source Mumble audio chat application" is a complete sentence on
-      its own. It is an independent clause.
-    </para>
-
-    <para>
-      The clause &#34;to provide technical support to my
-      users&#34; is meaningless alone, because it is not a complete sentence.
-    </para>
-
-    <para>
-      The sentence can be rewritten with a comma separating the two clauses&#58;
-    </para>
-
-    <informalexample>
-      <para>
-	To provide technical support to my users, I use the open source Mumble audio chat application.
-      </para>
-    </informalexample>
-
-    <para>
-      The same is true for very small clauses&#58;
-    </para>
-
-    <informalexample>
-      <para>
-	POSIX operating systems, such as Linux and BSD, are the only
-	ones that support the <systemitem>nproc</systemitem> resource
-	limit.
-      </para>
-    </informalexample>
-
-    <para>
-      The dependent clause "such as Linux and BSD" is surrounded by
-      commas to isolate it from the independent clause it interrupts.
-    </para>
-  </section>
-
-    <section id="punctuation-colon">
-    <title>
-      Colon
-    </title>
-
-    <para>
-      The colon expands on a sentence by introducing a list. Think of
-      it like a period, but with an addendum, because the sentence a
-      colon finishes is an independent clause.
-    </para>
-
-    <informalexample>
-      <para>
-	There are many advantages to Linux: stability, rapid
-	development, open source code, and an innovative, global user
-	base.
-      </para>
-    </informalexample>
-
-    </section>
-
-    <section id="punctuation-semicolon">
-    <title>
-      Semicolon
-    </title>
-    
-    <para>
-      Semicolons also introduce a list, but they can also be used like
-      a comma to separate two independent clauses.
-    </para>
-
-    <para>
-      Semicolons are usually unnecessary and add complexity to your
-      sentences. If you can, avoid them. They are often indicative
-      that a sentence can be rewritten more elegantly and clearly.
-    </para>
-
-    <para>
-      For example, this simple sentence is correct&#58;
-    </para>
-
-    <informalexample>
-      <para>
-	You should use Linux; it's a good operating system.
-      </para>
-    </informalexample>
-    
-    <para>
-      But for it isn't actually as clear as it could be&#58;
-    </para>
-    
-    <informalexample>
-      <para>
-	You should use Linux because it's a good operating system.
-      </para>
-    </informalexample>
-
-    <para>
-      Semicolons are often used to introduce lists&#58;
-    </para>
-
-    <informalexample>
-      <para>
-	The Internet relies on several open source technologies;
-	TCP/IP, DHCP, and DNS.
-      </para>
-    </informalexample>
-    </section>
-
-
-    <section id="punctuation-paren">
-    <title>
-      Parentheses, Rounded Brackets
-    </title>
-
-    <para>
-      <firstterm>Parentheses</firstterm> serve the same function as
-      commas, with the implication that they are commenting on a
-      sentence without adding to the sentence.
-    </para>
-
-    <para>
-      Like semicolons, parentheses are often unnecessary and are best
-      when used as an inline bibliography or reference.
-    </para>
-
-    <para>
-      In this example, parentheses are intended to bring clarity
-      to a sentence without interrupting the flow of the sentence&#58;
-    </para>
-
-    <informalexample>
-      <para>
-	Before launching the Foo service, you must ensure that your user
-      is a member of the <systemitem>foo</systemitem> group by opening
-      a terminal and using the <command>usermod</command> command to
-      append the group to your user's group membership (see the
-      <command>usermod</command> man page for more information) and
-      then logging out (so that the new group list is loaded). Then
-      start the service with the <command>systemctl</command> command
-      (or with the included startup script).
-      </para>
-    </informalexample>
-    
-    <para>
-      The paragraph can be rewritten without parentheses for greater clarity&#58;
-    </para>
-
-    <informalexample>
-      <para>
-	Before launching the Foo service, you must ensure that your
-	user is a member of the <systemitem>foo</systemitem>
-	group. Open a terminal and use the <command>usermod</command>
-	command to append the group to your user's group
-	membership. See the <command>usermod</command> man page for
-	more information on the command. Log out and the log back
-	in. Start the service with the <command>systemctl</command>
-	command or, if you are not using
-	<systemitem>systemd</systemitem>, with the included startup
-	script.
-      </para>
-    </informalexample>
-
-    <para>
-      However, as a bibliographic reference, the parentheses are acceptable&#58;
-    </para>
-
-    <informalexample>
-      <para>
-	Open a terminal and use the <command>usermod</command>
-	command to append the group to your user's group
-	membership (see "Usermod Pocket Guide").
-      </para>
-    </informalexample>
-    
-    <para>
-      Parentheses are also appropriate when identifying initialisms and acronyms&#58;
-    </para>
-
-    <informalexample>
-      <para>
-	Use Alpha Bravo Charlie (ABC) for secure connections.   
-      </para>
-    </informalexample>
-
-    </section>
-
-    <section id="punctuation-question">
-      <title>Question Marks</title>
-
-      <para>
-	Question marks are specific to sentences that pose a
-	question. In technical writing, they are usually only used in
-	quizzes or discussions.
-      </para>
-
-      <para>
-	You should not pose questions to the reader in an attempt to prompt a silent answer, the way you might in personal conversations&#58;
-      </para>
-
-      <bridgehead>Incorrect</bridgehead>
-
-      <informalexample>
-      <para>
-	Before you are able to set up your computer for remote login, you
-	must know its IP address. And how do we find that out? We use
-	the <command>ip</command> command, of course&#33;
-      </para>
-    </informalexample>
-
-    <bridgehead>Correct</bridgehead>
-    
-    <informalexample>
-      <para>
-	Before you are able to configure your computer for remote
-	login, you must know its IP address. Obtain your local IP
-	address with the <command>ip</command> command.
-      </para>
-    </informalexample>
-    </section>
-
-    <section id="punctuation-quote">
-      <title>Quotation Marks</title>
-
-      <para>
-	Quotation marks represent something someone has said, or in some cases, something that people often say.
-      </para>
-
-      <para>
-	In technical writing, there are few instances when quotation
-	marks are required outside of configuration files or
-	commands. The typical use case for quotes in technical writing
-	is when you want to refer to an unofficial but widespread
-	term.
-      </para>
-
-      <informalexample>
-	<para>
-	  The image has been preconfigured, or "pre-baked", with all
-	  the options you need for this exercise.
+<chapter id="chap-Documentation-English_for_Techies-_Punctuating_Sentences_Correctly_">
+	<title> Punctuating Sentences Correctly </title>
+	 <para>
+		Punctuation is important because it defines the scope of sentences and clauses. Using punctuation incorrectly can confuse the reader or even change the meaning of a sentence.
 	</para>
-      </informalexample>
-      
-    </section>
+	 <bridgehead>Example</bridgehead> <para>
+		In the interest of clarity, this is a simple example:
+	</para>
+	 <informalexample> <para>
+		Let's program everyone.
+	</para>
+	 </informalexample> <para>
+		Taken as written, that sentence means "let us take everyone and program them with code" but probably what the writer intended is "Hey, everybody, let's go write code!"
+	</para>
+	 <section id="sect-Documentation-English_for_Techies-_Punctuating_Sentences_Correctly_-_Period_Full_stop_Dot_">
+		<title> Period, Full-stop, Dot </title>
+		 <para>
+			The most basic punctuation mark is the <firstterm>period</firstterm> or <firstterm>dot</firstterm>, sometimes called a <firstterm>full-stop</firstterm>. The period signals the end of a complete sentence. It gives the reader a chance to process whatever information was contained in a sentence.
+		</para>
+		 <para>
+			A common misuse of a period is ending a sentence before it is complete. A complete sentence in English requires a subject and a verb in an independent clause.
+		</para>
+		 <para>
+			This is a complete sentence because it has a subject and a verb:
+		</para>
+		 <informalexample> <para>
+			Computers calculate.
+		</para>
+		 </informalexample> <para>
+			This is not a complete sentence because, while it does include a subject and a verb, it is not an independent clause:
+		</para>
+		 <informalexample> <para>
+			Boot the computer and then.
+		</para>
+		 </informalexample> <para>
+			Periods are more than just technical requirements to end a sentence, though. They help simplify complex concepts by breaking them down into small chunks of information that are easier for the reader to process.
+		</para>
+		 <para>
+			This sentence is complex:
+		</para>
+		 <informalexample> <para>
+			Before launching the Foo service, you must ensure that your user is a member of the <systemitem>foo</systemitem> group by opening a terminal and using the <command>usermod</command> command to append the group to your user's group membership (see the <command>usermod</command> man page for more information) and then logging out so that the new group list is loaded, then start the service with the <command>systemctl</command> command or with the included startup script.
+		</para>
+		 </informalexample> <para>
+			It is much easier to understand when broken into smaller sentences:
+		</para>
+		 <informalexample> <para>
+			Before launching the Foo service, you must ensure that your user is a member of the <systemitem>foo</systemitem> group. To add your user to the foo group, open a terminal. In your terminal window, use the <command>usermod</command> command to append the group to your user's group membership. If you are unfamiliar with <command>usermod</command>, refer to its man page. After you have added your user to the group, you must log out and then log back in so that your group membership is refreshed. To confirm membership, use the <command>groups</command> command. To start the service, use the <command>systemctl</command> command, or the included startup script.
+		</para>
+		 </informalexample> <para>
+			It is a lot of information, and probably ought to be made formally numbered steps, but replacing commas and conjunctions with periods is an important first step toward simplification.
+		</para>
 
-    <section id="punctuation-exercise">
-      <title>Exercise</title>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Punctuating_Sentences_Correctly_-_Comma_">
+		<title> Comma </title>
+		 <para>
+			The comma is used to separate items in a list, or to separate independent sentence clauses.
+		</para>
+		 <bridgehead>Lists</bridgehead> <para>
+			A list is a series of individual words meant to be taken as a group. For clarity, use a comma between each unique item in a list, even the final item.
+		</para>
+		 <informalexample> <para>
+			For this project, you must use Emacs, XML, and xsltproc.
+		</para>
+		 </informalexample> <para>
+			Intentionally omitting a comma implies an association within a list. For example:
+		</para>
+		 <informalexample> <para>
+			For this project, you must use Emacs, XML and the Docbook schema, and FOP.
+		</para>
+		 </informalexample> <para>
+			In this example, not using a comma between <emphasis>XML</emphasis> and <emphasis>the Docbook schema</emphasis> implies to the reader that they will only be using XML by using Docbook, but won't need a deep understanding of how XML works in general.
+		</para>
+		 <bridgehead>Clauses</bridgehead> <para>
+			Commas are also used to separate sentence clauses. A sentence clause is some segment of a complete sentence. A clause might be a complete sentence, or it might be dependent on the rest of the sentence to make sense.
+		</para>
+		 <tip> <para>
+			Dependent clauses are artifacts of complex sentences. If you write with minimalism in mind, you write fewer dependent clauses. If you write fewer dependent clauses, you have fewer commas to worry about.
+		</para>
+		 </tip> <para>
+			This sentence consists of two clauses. One is independent and the other dependent:
+		</para>
+		 <informalexample> <para>
+			I use the open source Mumble audio chat application to provide technical support to my users.
+		</para>
+		 </informalexample> <para>
+			To know where to place a comma, you must identify sentence clauses. The easiest way to identify a clause is to find the essential parts of the sentence. In the example, "I use the open source Mumble audio chat application" is a complete sentence on its own. It is an independent clause.
+		</para>
+		 <para>
+			The clause "to provide technical support to my users" is meaningless alone, because it is not a complete sentence.
+		</para>
+		 <para>
+			The sentence can be rewritten with a comma separating the two clauses:
+		</para>
+		 <informalexample> <para>
+			To provide technical support to my users, I use the open source Mumble audio chat application.
+		</para>
+		 </informalexample> <para>
+			The same is true for very small clauses:
+		</para>
+		 <informalexample> <para>
+			POSIX operating systems, such as Linux and BSD, are the only ones that support the <systemitem>nproc</systemitem> resource limit.
+		</para>
+		 </informalexample> <para>
+			The dependent clause "such as Linux and BSD" is surrounded by commas to isolate it from the independent clause it interrupts.
+		</para>
 
-      <para>
-	Add missing punctuation where necessary.
-      </para>
-      
-      <orderedlist>
-	<listitem>
-	  <para>
-	    If all of the file's data has been deleted the file can
-	    be reclaimed and reused by the broker.
-	  </para>
-	</listitem>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Punctuating_Sentences_Correctly_-_Colon_">
+		<title> Colon </title>
+		 <para>
+			The colon expands on a sentence by introducing a list. Think of it like a period, but with an addendum, because the sentence a colon finishes is an independent clause.
+		</para>
+		 <informalexample> <para>
+			There are many advantages to Linux: stability, rapid development, open source code, and an innovative, global user base.
+		</para>
+		 </informalexample>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Punctuating_Sentences_Correctly_-_Semicolon_">
+		<title> Semicolon </title>
+		 <para>
+			Semicolons also introduce a list, but they can also be used like a comma to separate two independent clauses.
+		</para>
+		 <para>
+			Semicolons are usually unnecessary and add complexity to your sentences. If you can, avoid them. They are often indicative that a sentence can be rewritten more elegantly and clearly.
+		</para>
+		 <para>
+			For example, this simple sentence is correct:
+		</para>
+		 <informalexample> <para>
+			You should use Linux; it's a good operating system.
+		</para>
+		 </informalexample> <para>
+			But for it isn't actually as clear as it could be:
+		</para>
+		 <informalexample> <para>
+			You should use Linux because it's a good operating system.
+		</para>
+		 </informalexample> <para>
+			Semicolons are often used to introduce lists:
+		</para>
+		 <informalexample> <para>
+			The Internet relies on several open source technologies; TCP/IP, DHCP, and DNS.
+		</para>
+		 </informalexample>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Punctuating_Sentences_Correctly_-_Parentheses_Rounded_Brackets_">
+		<title> Parentheses, Rounded Brackets </title>
+		 <para>
+			<firstterm>Parentheses</firstterm> serve the same function as commas, with the implication that they are commenting on a sentence without adding to the sentence.
+		</para>
+		 <para>
+			Like semicolons, parentheses are often unnecessary and are best when used as an inline bibliography or reference.
+		</para>
+		 <para>
+			In this example, parentheses are intended to bring clarity to a sentence without interrupting the flow of the sentence:
+		</para>
+		 <informalexample> <para>
+			Before launching the Foo service, you must ensure that your user is a member of the <systemitem>foo</systemitem> group by opening a terminal and using the <command>usermod</command> command to append the group to your user's group membership (see the <command>usermod</command> man page for more information) and then logging out (so that the new group list is loaded). Then start the service with the <command>systemctl</command> command (or with the included startup script).
+		</para>
+		 </informalexample> <para>
+			The paragraph can be rewritten without parentheses for greater clarity:
+		</para>
+		 <informalexample> <para>
+			Before launching the Foo service, you must ensure that your user is a member of the <systemitem>foo</systemitem> group. Open a terminal and use the <command>usermod</command> command to append the group to your user's group membership. See the <command>usermod</command> man page for more information on the command. Log out and the log back in. Start the service with the <command>systemctl</command> command or, if you are not using <systemitem>systemd</systemitem>, with the included startup script.
+		</para>
+		 </informalexample> <para>
+			However, as a bibliographic reference, the parentheses are acceptable:
+		</para>
+		 <informalexample> <para>
+			Open a terminal and use the <command>usermod</command> command to append the group to your user's group membership (see "Usermod Pocket Guide").
+		</para>
+		 </informalexample> <para>
+			Parentheses are also appropriate when identifying initialisms and acronyms:
+		</para>
+		 <informalexample> <para>
+			Use Alpha Bravo Charlie (ABC) for secure connections.
+		</para>
+		 </informalexample>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Punctuating_Sentences_Correctly_-Question_Marks">
+		<title>Question Marks</title>
+		 <para>
+			Question marks are specific to sentences that pose a question. In technical writing, they are usually only used in quizzes or discussions.
+		</para>
+		 <para>
+			You should not pose questions to the reader in an attempt to prompt a silent answer, the way you might in personal conversations:
+		</para>
+		 <bridgehead>Incorrect</bridgehead> <informalexample> <para>
+			Before you are able to set up your computer for remote login, you must know its IP address. And how do we find that out? We use the <command>ip</command> command, of course!
+		</para>
+		 </informalexample> <bridgehead>Correct</bridgehead> <informalexample> <para>
+			Before you are able to configure your computer for remote login, you must know its IP address. Obtain your local IP address with the <command>ip</command> command.
+		</para>
+		 </informalexample>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Punctuating_Sentences_Correctly_-Quotation_Marks">
+		<title>Quotation Marks</title>
+		 <para>
+			Quotation marks represent something someone has said, or in some cases, something that people often say.
+		</para>
+		 <para>
+			In technical writing, there are few instances when quotation marks are required outside of configuration files or commands. The typical use case for quotes in technical writing is when you want to refer to an unofficial but widespread term.
+		</para>
+		 <informalexample> <para>
+			The image has been preconfigured, or "pre-baked", with all the options you need for this exercise.
+		</para>
+		 </informalexample>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Punctuating_Sentences_Correctly_-Exercise">
+		<title>Exercise</title>
+		 <para>
+			Add missing punctuation where necessary.
+		</para>
+		 <orderedlist>
+			<listitem>
+				<para>
+					If all of the file's data has been deleted the file can be reclaimed and reused by the broker.
+				</para>
 
-	<listitem>
-	  <para>
-	    This controls the application's behavior on transaction boundaries such as commit, or rollback.
-	  </para>
-	</listitem>
+			</listitem>
+			 <listitem>
+				<para>
+					This controls the application's behavior on transaction boundaries such as commit, or rollback.
+				</para>
 
-	<listitem>
-	  <para>
-	    One major concern for administrators when considering data
-	    integrity of a broker's persistent data is whether or not
-	    the disk that is backing the broker is using a write
-	    cache.
-	  </para>
-	</listitem>
-	    
-	<listitem>
-	  <para>
-	    The broker creates as many files as needed but when it is
-	    reclaiming space it shrinks the number of journal files
-	    back to the <systemitem>journal-pool=files</systemitem> number.
-	  </para>
-	</listitem>
+			</listitem>
+			 <listitem>
+				<para>
+					One major concern for administrators when considering data integrity of a broker's persistent data is whether or not the disk that is backing the broker is using a write cache.
+				</para>
 
-      	<listitem>
-	  <para>
-	    Notice that this time the error message is made available to
-	    the application, even after foo was restarted.
-	  </para>
-	</listitem>
+			</listitem>
+			 <listitem>
+				<para>
+					The broker creates as many files as needed but when it is reclaiming space it shrinks the number of journal files back to the <systemitem>journal-pool=files</systemitem> number.
+				</para>
 
-	<listitem>
-	  <para>
-            Use the <command>mysql</command> command-line interface to
-            log in and select the log data from the <code>foo</code>
-            database.
-	  </para>
-	  <!-- solutions: "Using the mysql command-line interface, log in and select the log data..."
+			</listitem>
+			 <listitem>
+				<para>
+					Notice that this time the error message is made available to the application, even after foo was restarted.
+				</para>
+
+			</listitem>
+			 <listitem>
+				<para>
+					Use the <command>mysql</command> command-line interface to log in and select the log data from the <code>foo</code> database.
+				</para>
+				 <!--   solutions: "Using the mysql command-line interface, log in and select the log data..."
 	       or
-	       "Use the mysql command-line interface to log in. Select the log data..." -->
-	</listitem>
-	
-      </orderedlist>
-      </section>
-  </chapter>
+	       "Use the mysql command-line interface to log in. Select the log data..."   -->
+			</listitem>
+
+		</orderedlist>
+
+	</section>
+
+</chapter>
+

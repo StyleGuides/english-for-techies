@@ -1,26 +1,19 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "English_for_Techies.ent">
+%BOOK_ENTITIES;
 ]>
-<chapter id="ref">
-  <title>
-    Creating Reference Sections
-  </title>
-
-  <para>
-    Referencing internal and external content is common in technical documentation. To avoid linking to dead links or outdated content, you must create reference links carefully.
-  </para>
-
-  <section id="ref_rh">
-    <title>Referencing Red Hat Docs within an Admonition</title>
-
-  <para>
-    Red&nbsp;Hat documentation published on docs.redhat.com does not
-    have permanent URLs with chapter and section titles. For this
-    reason, do not imply that you are directly quoting a chapter title
-    in your reference, but give some indication of the chapter or
-    topic that the reader needs to look for.
-  </para>
-
+<chapter id="chap-Documentation-English_for_Techies-_Creating_Reference_Sections_">
+	<title> Creating Reference Sections </title>
+	 <para>
+		Referencing internal and external content is common in technical documentation. To avoid linking to dead links or outdated content, you must create reference links carefully.
+	</para>
+	 <section id="sect-Documentation-English_for_Techies-_Creating_Reference_Sections_-Referencing_Red_Hat_Docs_within_an_Admonition">
+		<title>Referencing Red Hat Docs within an Admonition</title>
+		 <para>
+			Red&nbsp;Hat documentation published on docs.redhat.com does not have permanent URLs with chapter and section titles. For this reason, do not imply that you are directly quoting a chapter title in your reference, but give some indication of the chapter or topic that the reader needs to look for.
+		</para>
+		 
 <programlisting><![CDATA[
 <note role="References">
   <para>
@@ -28,26 +21,21 @@
   </para>
 </note> 
 ]]></programlisting>
+		 <note role="References">
+			<para>
+				See the chapter on Kickstart installation in the <ulink url="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Installation_Guide/index.html"><citetitle>Red&nbsp;Hat Enterprise Linux&nbsp;7 Installation Guide</citetitle></ulink>
+			</para>
 
-<note role="References">
-  <para>
-      See the chapter on Kickstart installation in the <ulink url="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Installation_Guide/index.html"><citetitle>Red&nbsp;Hat Enterprise Linux&nbsp;7 Installation Guide</citetitle></ulink>
-  </para>
-</note>
-  </section>
+		</note>
 
-  <section id="ref_ext">
-    <title>Generic Referencing within an Admonition</title>
-
-  <para>
-    For links pointing to documentation external of Red&nbsp;Hat, link
-    to the documentation directly as possible. Use the &#60;ulink&#62;
-    tag instead of the &#60;uri&#62; tag if you are including a URL in
-    a reference.
-  </para>
-
-
-  <programlisting><![CDATA[
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Creating_Reference_Sections_-Generic_Referencing_within_an_Admonition">
+		<title>Generic Referencing within an Admonition</title>
+		 <para>
+			For links pointing to documentation external of Red&nbsp;Hat, link to the documentation directly as possible. Use the &lt;ulink&gt; tag instead of the &lt;uri&gt; tag if you are including a URL in a reference.
+		</para>
+		 
+<programlisting><![CDATA[
     <note role="References">
       <para>
 	<ulink url="http://docs.fedoraproject.org/en-US/
@@ -55,64 +43,66 @@
       </para>
     </note>
   ]]></programlisting>
+		 <note role="References">
+			<para>
+				<ulink url="http://docs.fedoraproject.org/en-US/     Fedora_Contributor_Documentation/1/html/Users_Guide/">Publican Users Guide</ulink>
+			</para>
 
-  
-  <note role="References">
-    <para>
-      <ulink url="http://docs.fedoraproject.org/en-US/
-		  Fedora_Contributor_Documentation/1/html/Users_Guide/">Publican Users Guide</ulink>
-    </para>
-  </note>
+		</note>
 
-  </section>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Creating_Reference_Sections_-Combining_Multiple_Reference_Types">
+		<title>Combining Multiple Reference Types</title>
+		 <para>
+			When combining more than one reference type, list them in one reference note at the end of a section.
+		</para>
+		 <para>
+			There are many sources you might use as reference. According to the type of material, place them in the following order of priority:
+		</para>
+		 <orderedlist>
+			<listitem>
+				<para>
+					Info nodes
+				</para>
 
-  <section id="ref_multi">
-    <title>Combining Multiple Reference Types</title>
+			</listitem>
+			 <listitem>
+				<para>
+					man pages
+				</para>
 
-    <para>
-      When combining more than one reference type, list them in one
-      reference note at the end of a section.
-    </para>
+			</listitem>
+			 <listitem>
+				<para>
+					yelp references (RARE)
+				</para>
 
-    <para>
-      There are many sources you might use as reference. According to the type of material, place them in the following order of priority&#58;
-    </para>
-    
-    <orderedlist>
-      <listitem>
-	<para>
-	  Info nodes
-      </para></listitem>
-      <listitem>
-	<para>
-	  man pages
-      </para></listitem>
-      <listitem>
-	<para>
-	  yelp references (RARE)
-      </para></listitem>
-      <listitem>
-	<para>
-	  Knowledgebase or Customer Portal references
-      </para></listitem>
-      <listitem>
-	<para>
-	  Third-party URLs
-	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  Red Hat Documentation
-      </para></listitem>
-    </orderedlist>
+			</listitem>
+			 <listitem>
+				<para>
+					Knowledgebase or Customer Portal references
+				</para>
 
-    <bridgehead>Info nodes</bridgehead>
-    
-    <para>
-      Info nodes are referenced first.
-    </para>
+			</listitem>
+			 <listitem>
+				<para>
+					Third-party URLs
+				</para>
 
-    <programlisting><![CDATA[
+			</listitem>
+			 <listitem>
+				<para>
+					Red Hat Documentation
+				</para>
+
+			</listitem>
+
+		</orderedlist>
+		 <bridgehead>Info nodes</bridgehead> <para>
+			Info nodes are referenced first.
+		</para>
+		 
+<programlisting><![CDATA[
       <note role="References">
 	<para>
 	  <command>info libc</command> (<emphasis>GNU C Library Reference Manual</emphasis>)
@@ -124,30 +114,27 @@
 	</para>
       </note>
     ]]></programlisting>
+		 <note role="References">
+			<para>
+				<command>info libc</command> (<emphasis>GNU C Library Reference Manual</emphasis>) 
+				<itemizedlist>
+					<listitem>
+						<para>
+							Section 29.2: The Persona of a Process
+						</para>
 
-    <note role="References">
-      <para>
-	<command>info libc</command> (<emphasis>GNU C Library Reference Manual</emphasis>)
-	<itemizedlist>
-	  <listitem>
-	    <para>Section 29.2: The Persona of a Process</para>
-	  </listitem>
-	</itemizedlist>
-      </para>
-    </note>
+					</listitem>
 
+				</itemizedlist>
 
-    <bridgehead>man pages</bridgehead>
+			</para>
 
-    <para>
-      Man pages should be listed as a single comma-separated list of items. The order of
-the man pages is at your discretion. The section of the
-manual for the man page must always be listed in parentheses after the man page title, even if there's
-no man page of the same name in any other section of the online manual. The section number
-must be outside the &#60;command&#62; element.
-    </para>
-
-    <programlisting><![CDATA[
+		</note>
+		 <bridgehead>man pages</bridgehead> <para>
+			Man pages should be listed as a single comma-separated list of items. The order of the man pages is at your discretion. The section of the manual for the man page must always be listed in parentheses after the man page title, even if there's no man page of the same name in any other section of the online manual. The section number must be outside the &lt;command&gt; element.
+		</para>
+		 
+<programlisting><![CDATA[
     <note role="References">
       <para>
 	<command>ls</command>(1), <command>mv</command>(1), and <command>su</command>(1)
@@ -155,22 +142,17 @@ must be outside the &#60;command&#62; element.
       </para>
     </note>
     ]]></programlisting>
-    
-    <note role="References">
-      <para>
-	<command>ls</command>(1), <command>mv</command>(1), and <command>su</command>(1)
-	man pages
-      </para>
-    </note>
+		 <note role="References">
+			<para>
+				<command>ls</command>(1), <command>mv</command>(1), and <command>su</command>(1) man pages
+			</para>
 
-    <bridgehead>Yelp &#40;GNOME help&#41;</bridgehead>
-
-    <para>
-      When referencing a page from GNOME help, try to reference a command that can be used to
-      bring up the exact page. Deep links to individual pages can be determined by looking at the <filename>&#42;.page</filename> files in <filename>&#47;usr&#47;share&#47;help&#47;C</filename> in the <filename>gnome-help</filename> directory.
-    </para>
-
-    <programlisting><![CDATA[
+		</note>
+		 <bridgehead>Yelp (GNOME help)</bridgehead> <para>
+			When referencing a page from GNOME help, try to reference a command that can be used to bring up the exact page. Deep links to individual pages can be determined by looking at the <filename>*.page</filename> files in <filename>/usr/share/help/C</filename> in the <filename>gnome-help</filename> directory.
+		</para>
+		 
+<programlisting><![CDATA[
       <note role="References"> <para> GNOME Help: <emphasis>Getting Started with GNOME</emphasis>
       <itemizedlist>
 	<listitem>
@@ -182,50 +164,43 @@ must be outside the &#60;command&#62; element.
     </para>
       </note>
     ]]></programlisting>
-    
-    <note role="References"> <para> GNOME Help: <emphasis>Getting Started with GNOME</emphasis>
-    <itemizedlist>
-      <listitem>
-	<para>
-	  <command>yelp help:gnome-help/getting-started</command>
-	</para>
-      </listitem>
-    </itemizedlist>
-    </para></note>
+		 <note role="References">
+			<para>
+				GNOME Help: <emphasis>Getting Started with GNOME</emphasis> <itemizedlist>
+					<listitem>
+						<para>
+							<command>yelp help:gnome-help/getting-started</command>
+						</para>
 
-    <bridgehead>Local documentation</bridgehead>
+					</listitem>
 
-    <para>
-      URLs pointing to documentation on web pages served by the local
-      machine. This is rare, but two significant examples are the CUPS
-      help pages and the httpd-manual pages.
-    </para>
+				</itemizedlist>
 
-    <programlisting><![CDATA[
+			</para>
+
+		</note>
+		 <bridgehead>Local documentation</bridgehead> <para>
+			URLs pointing to documentation on web pages served by the local machine. This is rare, but two significant examples are the CUPS help pages and the httpd-manual pages.
+		</para>
+		 
+<programlisting><![CDATA[
       <note role="References">
 	<para>
 	  <ulink url="http://localhost:631/help/">CUPS Online Help</ulink>
 	</para>
       </note>
     ]]></programlisting>
+		 <note role="References">
+			<para>
+				<ulink url="http://localhost:631/help/">CUPS Online Help</ulink>
+			</para>
 
-    <note role="References">
-      <para>
-	<ulink url="http://localhost:631/help/">CUPS Online Help</ulink>
-      </para>
-    </note>
-
-    <bridgehead>Knowledgebase</bridgehead>
-
-    <para>
-      Knowledgebase articles are stable. Reference them with a
-      &#60;ulink&#62; directly to the article. Titles should be
-      verified. If the article title doesn&#39;t match and seems wildly
-      different, the author must validate that the article reference
-      is correct.
-    </para>
-
-    <programlisting><![CDATA[
+		</note>
+		 <bridgehead>Knowledgebase</bridgehead> <para>
+			Knowledgebase articles are stable. Reference them with a &lt;ulink&gt; directly to the article. Titles should be verified. If the article title doesn't match and seems wildly different, the author must validate that the article reference is correct.
+		</para>
+		 
+<programlisting><![CDATA[
       <note role="References">
 	<para>
 	  <ulink url="https://access.redhat.com/site/solutions/253273"> Knowledgebase:
@@ -234,23 +209,17 @@ must be outside the &#60;command&#62; element.
 	</para>
       </note>
     ]]></programlisting>
-    
-    <note role="References">
-      <para>
-	<ulink url="https://access.redhat.com/site/solutions/253273">Knowledgebase:
-	&quot;How to register and subscribe a system using Red Hat Subscription Manager&quot; </ulink>
-    </para>
-    </note>
+		 <note role="References">
+			<para>
+				<ulink url="https://access.redhat.com/site/solutions/253273">Knowledgebase: "How to register and subscribe a system using Red Hat Subscription Manager" </ulink>
+			</para>
 
-    <bridgehead>External docs</bridgehead>
-
-    <para>
-      External (non-Red&nbsp;Hat) URL references go last. These should
-      be used sparingly, and only when the site is truly an
-      authority.
-    </para>
-
-    <programlisting><![CDATA[
+		</note>
+		 <bridgehead>External docs</bridgehead> <para>
+			External (non-Red&nbsp;Hat) URL references go last. These should be used sparingly, and only when the site is truly an authority.
+		</para>
+		 
+<programlisting><![CDATA[
       <note role="References"> <para>
 	<ulink url="http://www.rfc-editor.org/rfcs/rfc2460.txt"> RFC 2460: Internet
 	Protocol,
@@ -264,21 +233,20 @@ must be outside the &#60;command&#62; element.
 	pool.ntp.org?</ulink>
       </para></note>
     ]]></programlisting>
+		 <note role="References">
+			<para>
+				<ulink url="http://www.rfc-editor.org/rfcs/rfc2460.txt"> RFC 2460: Internet Protocol, Version 6 (IPv6) Specification</ulink>
+			</para>
+			 <para>
+				<ulink url="http://www.ntp.org/">NTP: Network Time Protocol</ulink>
+			</para>
+			 <para>
+				<ulink url="http://www.pool.ntp.org/en/use.html">NTP Pool Project: How do I use pool.ntp.org?</ulink>
+			</para>
 
-    <note role="References"> <para>
-      <ulink url="http://www.rfc-editor.org/rfcs/rfc2460.txt"> RFC 2460: Internet
-      Protocol,
-      Version 6 (IPv6) Specification</ulink>
-    </para>
-    <para>
-      <ulink url="http://www.ntp.org/">NTP: Network Time Protocol</ulink>
-    </para>
-    <para>
-      <ulink url="http://www.pool.ntp.org/en/use.html">NTP Pool Project: How do I use
-      pool.ntp.org?</ulink>
-    </para>
-    </note>
+		</note>
 
-  </section>
+	</section>
 
 </chapter>
+
