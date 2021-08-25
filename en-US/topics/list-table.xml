@@ -1,36 +1,22 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "English_for_Techies.ent">
+%BOOK_ENTITIES;
 ]>
-
-<chapter id="list">
-  <title>
-    Lists and Tables
-  </title>
-
-  <para>
-    There is no single standard for writing a list. The style of each
-    list depends on the contents of the list, but the style should remain
-    consistent within each list.
-  </para>
-
-  <para>
-    There are, broadly, three different types of lists: the ordered
-    list, the itemized list, and the variable list. When a reader must
-    follow the items in a list sequentially, use an ordered list. If
-    sequence is not important, use an itemized list. When defining a
-    list of terms, use the variable list.
-  </para>
-
-<section id="list-stem">
-    <title>Stems</title> 
-
-    <para>
-      Avoid using bullet point lists to format a single sentence. Some translation tools, for example
-      Zanata, display list items and the introductory sentence (or <emphasis>sentence stem</emphasis>) as individual sentences for
-      translation. If these are not complete sentences, they are difficult to translate.
-    </para>
-
-    		 <table>
+<chapter id="chap-Documentation-English_for_Techies-_Lists_and_Tables_">
+	<title> Lists and Tables </title>
+	 <para>
+		There is no single standard for writing a list. The style of each list depends on the contents of the list, but the style should remain consistent within each list.
+	</para>
+	 <para>
+		There are, broadly, three different types of lists: the ordered list, the itemized list, and the variable list. When a reader must follow the items in a list sequentially, use an ordered list. If sequence is not important, use an itemized list. When defining a list of terms, use the variable list.
+	</para>
+	 <section id="sect-Documentation-English_for_Techies-_Lists_and_Tables_-Stems">
+		<title>Stems</title>
+		 <para>
+			Avoid using bullet point lists to format a single sentence. Some translation tools, for example Zanata, display list items and the introductory sentence (or <emphasis>sentence stem</emphasis>) as individual sentences for translation. If these are not complete sentences, they are difficult to translate.
+		</para>
+		 <table>
 			<title></title>
 			 <tgroup cols="2" colsep="1" rowsep="1">
 				<colspec colname="c1"></colspec>
@@ -95,361 +81,323 @@
 
 		</table>
 
-</section>
-      
-  <section id="list-punc">
-    <title>Punctuation</title> 
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Lists_and_Tables_-Punctuation">
+		<title>Punctuation</title>
+		 <para>
+			If you place a period at the end of one list item in a list, then use a period at the end of each list item in that list.
+		</para>
+		 <para>
+			Use punctuation when a list item completes an introductory sentence.
+		</para>
+		 <informalexample> <para>
+			Before removing your USB hard drive from your computer, you may need to:
+		</para>
+		 <itemizedlist>
+			<listitem>
+				<para>
+					close any open files located on the drive.
+				</para>
 
-  <para>
-    If you place a period at the end of one list item in a list, then use a period at the end of each list item in that list. 
-  </para>
+			</listitem>
+			 <listitem>
+				<para>
+					close any terminal open to a directory on the drive.
+				</para>
 
-  <para>
-    Use punctuation when a list item completes an introductory sentence.
-  </para>
+			</listitem>
 
-  <informalexample>
-    <para>
-      Before removing your USB hard drive from your computer, you may need to:
-    </para>
+		</itemizedlist>
+		 </informalexample> <para>
+			Use punctuation when a list item contains more than one complete sentence.
+		</para>
+		 <informalexample> <para>
+			Before removing your USB hard drive from your computer, there are two tasks you may need to take.
+		</para>
+		 <itemizedlist>
+			<listitem>
+				<para>
+					If you are running an application with a files from the drive open, you must close the file. Alternately, save a new copy of the file to some other location. If you are not sure whether you have any files from the drive open, use the <command>lsof</command> command.
+				</para>
 
-    <itemizedlist>
-      <listitem>
-	<para>
-	  close any open files located on the drive.
-	</para>
-      </listitem>
+			</listitem>
+			 <listitem>
+				<para>
+					If you have a terminal open to a directory on the drive, either close the terminal or change directory to a directory not located on the drive.
+				</para>
 
-      <listitem>
-	<para>
-	  close any terminal open to a directory on the drive.
-	</para>
-      </listitem>
-    </itemizedlist>
+			</listitem>
 
-  </informalexample>
+		</itemizedlist>
+		 </informalexample> <para>
+			Do not use punctuation for:
+		</para>
+		 <itemizedlist>
+			<listitem>
+				<para>
+					sentence fragments
+				</para>
 
+			</listitem>
+			 <listitem>
+				<para>
+					single words or short terms
+				</para>
 
-  <para>
-    Use punctuation when a list item contains more than one complete sentence.
-  </para>
+			</listitem>
 
-  
-  <informalexample>
-    <para>
-      Before removing your USB hard drive from your computer, there are two tasks you may need to take.
-    </para>
+		</itemizedlist>
+		 <para>
+			Most of all, strive for consistency. If a list contains two list items that are complete sentences, and a third that is just a single word, you should restructure your list. For example, change the single word list item into a simple sentence so that it matches the other items. Alternately, review whether the items in your list belong in a list together.
+		</para>
 
-    <itemizedlist>
-      <listitem>
-	<para>
-     	  If you are running an application with a files from the
-    	  drive open, you must close the file. Alternately, save a new
-    	  copy of the file to some other location. If you are not sure
-    	  whether you have any files from the drive open, use the
-    	  <command>lsof</command> command.
-	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  If you have a terminal open to a directory on the drive,
-	  either close the terminal or change directory to a directory
-	  not located on the drive.
-	</para>
-      </listitem>
-    </itemizedlist>
-  </informalexample>
-  
-  <para>
-    Do not use punctuation for:
-  </para>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Lists_and_Tables_-Tense">
+		<title>Tense</title>
+		 <para>
+			Retain the same verb tense for each list item.
+		</para>
+		 <para>
+			For example, this is incorrect:
+		</para>
+		 <informalexample> <itemizedlist>
+			<listitem>
+				<para>
+					Students gain an understanding of the Linux init system.
+				</para>
 
-    <itemizedlist>
-      <listitem>
-	<para>
-	  sentence fragments
-	</para>
-      </listitem>
-      <listitem>
-	<para>
-	  single words or short terms
-	</para>
-      </listitem>
-    </itemizedlist>
+			</listitem>
+			 <listitem>
+				<para>
+					All students will learn how to use <command>systemctl</command>.
+				</para>
 
-    <para>
-      Most of all, strive for consistency. If a list contains two list
-      items that are complete sentences, and a third that is just a
-      single word, you should restructure your list. For example,
-      change the single word list item into a simple sentence so that
-      it matches the other items. Alternately, review whether the
-      items in your list belong in a list together.
-    </para>
+			</listitem>
+			 <listitem>
+				<para>
+					Students create a simple chroot for testing.
+				</para>
 
-  </section>
+			</listitem>
 
-  <section id="list-tense">
-    <title>Tense</title>
+		</itemizedlist>
+		 </informalexample> <para>
+			The second list item uses the future tense, while the other two are present tense.
+		</para>
+		 <para>
+			This is correct:
+		</para>
+		 <informalexample> <itemizedlist>
+			<listitem>
+				<para>
+					Gain an understanding of the Linux init system.
+				</para>
 
-    <para>
-      Retain the same verb tense for each list item.
-    </para>
+			</listitem>
+			 <listitem>
+				<para>
+					Learn how to use the <command>systemctl</command> command to start, stop, and monitor services.
+				</para>
 
-    <para>
-      For example, this is incorrect:
-    </para>
+			</listitem>
+			 <listitem>
+				<para>
+					Create a simple chroot for testing.
+				</para>
 
-    <informalexample>
-      <itemizedlist>
-	<listitem>
-	  <para>
-	    Students gain an understanding of the Linux init system.
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    All students will learn how to use <command>systemctl</command>.
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    Students create a simple chroot for testing.
-	  </para>
-	</listitem>
-      </itemizedlist>
-    </informalexample>
+			</listitem>
 
-    <para>
-      The second list item uses the future tense, while the other two are present tense.
-    </para>
+		</itemizedlist>
+		 </informalexample> <para>
+			This is called <emphasis>parallelism</emphasis>, and should be applied across all lists within the same book.
+		</para>
+		 <para>
+			A list that constantly changes sentence structure is confusing:
+		</para>
+		 <informalexample> <itemizedlist>
+			<listitem>
+				<para>
+					Use to specify the X variable.
+				</para>
 
-    <para>
-      This is correct:
-    </para>
+			</listitem>
+			 <listitem>
+				<para>
+					Specifies which value to apply to Y.
+				</para>
 
-    <informalexample>
-      <itemizedlist>
-	<listitem>
-	  <para>
-	    Gain an understanding of the Linux init system.
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    Learn how to use the <command>systemctl</command> command to start, stop, and monitor services.
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    Create a simple chroot for testing.
-	  </para>
-	</listitem>
-      </itemizedlist>
-    </informalexample>
+			</listitem>
+			 <listitem>
+				<para>
+					You can use this to change the config from a POSIX shell.
+				</para>
 
-    <para>
-      This is called <emphasis>parallelism</emphasis>, and should be
-      applied across all lists within the same book.  
-    </para>
+			</listitem>
 
-    <para>
-      A list that constantly changes sentence structure is confusing&#58;
-    </para>
-    
-    <informalexample>
-      <itemizedlist>
-	<listitem>
-	<para>
-	  Use to specify the X variable.
-	</para>
-	</listitem>
-	<listitem>
-	  <para>
-	    Specifies which value to apply to Y.
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    You can use this to change the config from a POSIX shell.
-	  </para>
-	</listitem>
-      </itemizedlist>
-    </informalexample>
+		</itemizedlist>
+		 </informalexample> <para>
+			It is easier to understand when a list maintains the same voice throughout. A reader might refer to several lists or tables within a book, so ensuring a consistent voice in every list or table helps readers quickly parse important information.
+		</para>
 
-    <para>
-      It is easier to understand when a list maintains the same voice
-      throughout. A reader might refer to several lists or tables
-      within a book, so ensuring a consistent voice in every list or
-      table helps readers quickly parse important information.
-    </para>
-  </section>
-  
-  <section id="list-var">
-    <title>Key-Value Lists</title>
-    
-    <para>
-      If you are writing a list that exists only to define terms, use a variable list.
-    </para>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Lists_and_Tables_-Key_Value_Lists">
+		<title>Key-Value Lists</title>
+		 <para>
+			If you are writing a list that exists only to define terms, use a variable list.
+		</para>
+		 <informalexample> <variablelist>
+			<varlistentry id="varl-Documentation-English_for_Techies-Key_Value_Lists-example.com">
+				<term>example.com</term>
+				 <listitem>
+					<para>
+						A domain reserved as a safe example URL. This is the correct way to define a term in a list.
+					</para>
 
-    <informalexample>
-    <variablelist>
+				</listitem>
 
-      <varlistentry>
-	<term>example.com</term>
-	<listitem>
-	  <para>
-	    A domain reserved as a safe example URL. This is the correct way to define a term in a list.
-	  </para>
-	</listitem>
-      </varlistentry>
+			</varlistentry>
+			 <varlistentry id="varl-Documentation-English_for_Techies-Key_Value_Lists-example.local">
+				<term>example.local</term>
+				 <listitem>
+					<para>
+						A domain that exists only within a local network.
+					</para>
 
-      <varlistentry>
-	<term>example.local</term>
-	<listitem>
-	  <para>
-	    A domain that exists only within a local network.
-	  </para>
-	</listitem>
-      </varlistentry>
+				</listitem>
 
-      <varlistentry>
-	<term>cat</term>
-	<listitem>
-	  <para>
-	    The concatenate command.
-	  </para>
-	</listitem>
-      </varlistentry>
-    </variablelist>
-    </informalexample>
-    
-    <para>
-      Sometimes your list definitions do not contain exclusively
-      simple terms to be defined, so you have to use an itemized list
-      to allow for mixed list items. Delimiters separating a term
-      from its definition can be confused as being a part of the term,
-      so it is best to define terms in complete sentences, and with
-      appropriate Docbook tags.
-    </para>
+			</varlistentry>
+			 <varlistentry id="varl-Documentation-English_for_Techies-Key_Value_Lists-cat">
+				<term>cat</term>
+				 <listitem>
+					<para>
+						The concatenate command.
+					</para>
 
-    <informalexample>
-      <itemizedlist>
-	<listitem>
-	  <para>
-	    <emphasis role="strong">example.com</emphasis> is a domain reserved as a safe example URL. This is the correct way to define a term in a list.
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    <emphasis role="strong">example.local</emphasis>: a domain that exists only within a local network. This is not as clean, since the colon (:) could be interpreted as part of the term being defined.
-	  </para>
-	</listitem>
-	<listitem>
-	  <para>
-	    <command>cat</command> - the concatenate command. This is also unclear, since the dash (-) could represent shorthand for POSIX <systemitem>stdin</systemitem>. 
-	  </para>
-	</listitem>
-      </itemizedlist>
-    </informalexample>
+				</listitem>
 
-  </section>
+			</varlistentry>
 
-  <section id="table">
-    <title>Tables</title>
+		</variablelist>
+		 </informalexample> <para>
+			Sometimes your list definitions do not contain exclusively simple terms to be defined, so you have to use an itemized list to allow for mixed list items. Delimiters separating a term from its definition can be confused as being a part of the term, so it is best to define terms in complete sentences, and with appropriate Docbook tags.
+		</para>
+		 <informalexample> <itemizedlist>
+			<listitem>
+				<para>
+					<emphasis role="strong">example.com</emphasis> is a domain reserved as a safe example URL. This is the correct way to define a term in a list.
+				</para>
 
-    <para>
-      Tables are, essentially, lists rendered horizontally as well as vertically.
-    </para>
+			</listitem>
+			 <listitem>
+				<para>
+					<emphasis role="strong">example.local</emphasis>: a domain that exists only within a local network. This is not as clean, since the colon (:) could be interpreted as part of the term being defined.
+				</para>
 
-    <para>
-      The same rules apply for tables as for lists, with the primary goal being internal consistency. This table is not consistent:
-    </para>
+			</listitem>
+			 <listitem>
+				<para>
+					<command>cat</command> - the concatenate command. This is also unclear, since the dash (-) could represent shorthand for POSIX <systemitem>stdin</systemitem>.
+				</para>
 
-    <informaltable>
-      <tgroup cols="3">
-	<colspec colwidth="6em" align="left" />
-	<colspec colwidth="6em" align="left" />
-	<colspec colwidth="16em" align="left" />
-        <thead>
-          <row>
-            <entry>
-              Server
-            </entry>
-            <entry>
-              OS
-            </entry>
-            <entry>
-              Function
-            </entry>	    
-          </row>
-        </thead>
-        <tbody>
-          <row>
-            <entry><emphasis role="strong">servera</emphasis></entry>
-            <entry>RHEL&nbsp;7</entry>
-	    <entry>DNS</entry>
-          </row>
-	  <row>
-            <entry><emphasis role="strong">serverb</emphasis></entry>
-            <entry>RHEL&nbsp;7</entry>
-	    <entry>DNS fallback</entry>
-          </row>
-          <row>
-	    <entry><emphasis role="strong">serverc</emphasis></entry>
-	    <entry>Fedora&nbsp;26</entry>
-	    <entry>This is only a testing server.</entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </informaltable>    
+			</listitem>
 
-    <para>
-      This is a consistent table:
-    </para>
+		</itemizedlist>
+		 </informalexample>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Lists_and_Tables_-Tables">
+		<title>Tables</title>
+		 <para>
+			Tables are, essentially, lists rendered horizontally as well as vertically.
+		</para>
+		 <para>
+			The same rules apply for tables as for lists, with the primary goal being internal consistency. This table is not consistent:
+		</para>
+		 <informaltable>
+			<tgroup cols="3">
+				<colspec align="left" colwidth="6em"></colspec>
+				 <colspec align="left" colwidth="6em"></colspec>
+				 <colspec align="left" colwidth="16em"></colspec>
+				 <thead>
+					<row>
+						<entry> Server </entry>
+						 <entry> OS </entry>
+						 <entry> Function </entry>
 
-    <informaltable>
-      <tgroup cols="3">
-	<colspec colwidth="6em" align="left" />
-	<colspec colwidth="6em" align="left" />
-	<colspec colwidth="16em" align="left" />
-        <thead>
-          <row>
-            <entry>
-              Server
-            </entry>
-            <entry>
-              OS
-            </entry>
-            <entry>
-              Function
-            </entry>	    
-          </row>
-        </thead>
-        <tbody>
-          <row>
-            <entry><emphasis role="strong">servera</emphasis></entry>
-            <entry>RHEL&nbsp;7</entry>
-	    <entry>DNS</entry>
-          </row>
-	  <row>
-            <entry><emphasis role="strong">serverb</emphasis></entry>
-            <entry>RHEL&nbsp;7</entry>
-	    <entry>DNS fallback</entry>
-          </row>
-          <row>
-	    <entry><emphasis role="strong">serverc</emphasis></entry>
-	    <entry>Fedora&nbsp;26</entry>
-	    <entry>This is only a testing server</entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </informaltable>    
+					</row>
 
-    <para>
-      Even though the final entry in the table is a complete sentence, it has no period at the end of the sentence to better match the convention established by previous entries.
-    </para>
+				</thead>
+				 <tbody>
+					<row>
+						<entry><emphasis role="strong">servera</emphasis></entry>
+						 <entry>RHEL&nbsp;7</entry>
+						 <entry>DNS</entry>
 
-    
-  </section>
+					</row>
+					 <row>
+						<entry><emphasis role="strong">serverb</emphasis></entry>
+						 <entry>RHEL&nbsp;7</entry>
+						 <entry>DNS fallback</entry>
+
+					</row>
+					 <row>
+						<entry><emphasis role="strong">serverc</emphasis></entry>
+						 <entry>Fedora&nbsp;26</entry>
+						 <entry>This is only a testing server.</entry>
+
+					</row>
+
+				</tbody>
+
+			</tgroup>
+
+		</informaltable>
+		 <para>
+			This is a consistent table:
+		</para>
+		 <informaltable>
+			<tgroup cols="3">
+				<colspec align="left" colwidth="6em"></colspec>
+				 <colspec align="left" colwidth="6em"></colspec>
+				 <colspec align="left" colwidth="16em"></colspec>
+				 <thead>
+					<row>
+						<entry> Server </entry>
+						 <entry> OS </entry>
+						 <entry> Function </entry>
+
+					</row>
+
+				</thead>
+				 <tbody>
+					<row>
+						<entry><emphasis role="strong">servera</emphasis></entry>
+						 <entry>RHEL&nbsp;7</entry>
+						 <entry>DNS</entry>
+
+					</row>
+					 <row>
+						<entry><emphasis role="strong">serverb</emphasis></entry>
+						 <entry>RHEL&nbsp;7</entry>
+						 <entry>DNS fallback</entry>
+
+					</row>
+					 <row>
+						<entry><emphasis role="strong">serverc</emphasis></entry>
+						 <entry>Fedora&nbsp;26</entry>
+						 <entry>This is only a testing server</entry>
+
+					</row>
+
+				</tbody>
+
+			</tgroup>
+
+		</informaltable>
+		 <para>
+			Even though the final entry in the table is a complete sentence, it has no period at the end of the sentence to better match the convention established by previous entries.
+		</para>
+
+	</section>
 
 </chapter>
+

@@ -1,242 +1,157 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "English_for_Techies.ent">
+%BOOK_ENTITIES;
 ]>
-<chapter>
-  <title>
-    Writing in Active Voice
-  </title>
+<chapter id="chap-Documentation-English_for_Techies-_Writing_in_Active_Voice_">
+	<title> Writing in Active Voice </title>
+	 <para>
+		Writing in the <firstterm>active voice</firstterm> creates powerful and engaging content. The active voice suggests that the written word is "speaking" directly to the reader, enabling the reader to learn quickly, and to take action when an exercise requires it. For technical writing, the active voice is the clearest way to demonstrate action and result, or cause and effect.
+	</para>
+	 <bridgehead>Active voice</bridgehead> <para>
+		In the active voice, the subject of the sentence is also the person or thing performing an action.
+	</para>
+	 <informalexample> <para>
+		I compiled the code.
+	</para>
+	 </informalexample> <bridgehead>Passive voice</bridgehead> <para>
+		The <firstterm>passive voice</firstterm> is the opposite of active voice. In the passive voice, the subject of the sentence is the person or thing receiving action:
+	</para>
+	 <informalexample> <para>
+		The code was compiled by me.
+	</para>
+	 </informalexample> <para>
+		While the passive voice is not grammatically incorrect, it is less efficient than the active voice and also tends to cause confusion about who is doing what.
+	</para>
+	 <para>
+		Here is another sentence in the passive voice:
+	</para>
+	 <informalexample> <para>
+		A key being pressed prompts the computer to continue.
+	</para>
+	 </informalexample> <para>
+		Is this sentence an instruction telling you to press a key, or is it just a footnote about what happens when a key is pressed?
+	</para>
+	 <para>
+		The active voice is both clearer and more concise:
+	</para>
+	 <informalexample> <para>
+		Press any key to continue.
+	</para>
+	 </informalexample> <section id="sect-Documentation-English_for_Techies-_Writing_in_Active_Voice_-Writing_in_the_Active_Voice">
+		<title>Writing in the Active Voice</title>
+		 <para>
+			To use the active voice, write as if you're composing a list of instructions for your reader. You are not writing a description of what the reader <emphasis>would see</emphasis> if the reader <emphasis>were sitting</emphasis> in front of your computer, seeing what you see as you write. The reader is seeing what is on the reader's own computer screen, and they are doing what you tell them to do.
+		</para>
+		 <para>
+			The following examples demonstrate how to rewrite some sentences, written in the passive voice, into the active voice:
+		</para>
+		 <table frame="all" id="tabl-Documentation-English_for_Techies-Writing_in_the_Active_Voice-Converting_Passive_Voice_to_Active_Voice">
+			<title>Converting Passive Voice to Active Voice</title>
+			 <tgroup align="left" cols="2" colsep="1" rowsep="1">
+				<colspec colname="c1" colnum="1" colwidth="1.0*"></colspec>
+				 <colspec colname="c2" colnum="2" colwidth="2.0*"></colspec>
+				 <thead>
+					<row>
+						<entry>Passive voice</entry>
+						 <entry>Active voice</entry>
 
-  <para>
-    Writing in the <firstterm>active voice</firstterm> creates
-    powerful and engaging content. The active voice suggests that the
-    written word is &#34;speaking&#34; directly to the reader,
-    enabling the reader to learn quickly, and to take action when an
-    exercise requires it. For technical writing, the active voice is
-    the clearest way to demonstrate action and result, or cause and
-    effect.
-  </para>
+					</row>
 
-  <bridgehead>Active voice</bridgehead>
+				</thead>
+				 <tbody>
+					<row>
+						<entry>
+						<para>
+							The values of the XML configuration can be found by parsing the file with the Xerces library in C++.
+						</para>
+						</entry>
+						 <entry>
+						<para>
+							Parse the XML configuration file using the <ulink url="https://xerces.apache.org/xerces-c/">Xerces</ulink> C++ library.
+						</para>
+						</entry>
 
-  <para>
-    In the active voice, the subject of the sentence is also
-    the person or thing performing an action.
-  </para>
+					</row>
+					 <row>
+						<entry>
+						<para>
+							Open <application>XYZ Viewer</application> by double-clicking the <guibutton>XYZ Tools</guibutton> icon from the <systemitem>workstation</systemitem> desktop.
+						</para>
+						</entry>
+						 <entry>
+						<para>
+							Double-click the <guibutton>XYZ Tools</guibutton> icon on the <systemitem>workstation</systemitem> desktop to open <application>XYZ Viewer</application>.
+						</para>
+						</entry>
 
-  <informalexample>
-    <para>
-      I compiled the code.
-    </para>
-  </informalexample>
-  
+					</row>
+					 <row>
+						<entry>
+						<para>
+							It was presented earlier in this book the syntax for using XML configuration files with a Python module imported into the <application>PyShadowman</application> code base.
+						</para>
+						</entry>
+						 <entry>
+						<para>
+							The steps to import the required module into <application>PyShadowman</application> were explained in the <ulink url="#">Importing the BeautifulSoup Module</ulink> section.
+						</para>
+						</entry>
 
-  <bridgehead>Passive voice</bridgehead>
+					</row>
 
-  <para>
-    The <firstterm>passive voice</firstterm> is the opposite of active
-    voice. In the passive voice, the subject of the sentence is the
-    person or thing receiving action:
-  </para>
+				</tbody>
 
-  <informalexample>
-    <para>
-      The code was compiled by me.
-    </para>
-  </informalexample>
-  
-  <para>
-    While the passive voice is not grammatically incorrect, it is less
-    efficient than the active voice and also tends to cause confusion
-    about who is doing what.
-  </para>
+			</tgroup>
 
-  <para>
-    Here is another sentence in the passive voice&#58;
-  </para>
+		</table>
 
-  <informalexample>
-    <para>
-      A key being pressed prompts the computer to continue.
-    </para>
-  </informalexample>
+	</section>
+	 <section id="sect-Documentation-English_for_Techies-_Writing_in_Active_Voice_-Exercise">
+		<title>Exercise</title>
+		 <para>
+			Rewrite each paragraph in the active voice.
+		</para>
+		 <orderedlist>
+			<listitem>
+				<para>
+					<!--   Do NOT correct this. It is intentionally wrong.   --> The server got rebooted.
+				</para>
 
-  <para>
-    Is this sentence an instruction telling you to press a key, or is
-    it just a footnote about what happens when a key is pressed?
-  </para>
+			</listitem>
+			 <listitem>
+				<para>
+					<!--   Do NOT correct this. It is intentionally wrong.   --> The QTextEdit field should be placed in the right corner of the QMainWindow.
+				</para>
 
-  <para>
-    The active voice is both clearer and more concise&#58;
-  </para>
+			</listitem>
+			 <listitem>
+				<para>
+					<!--   Do NOT correct this. It is intentionally wrong.   --> To begin the code compilation process, GCC is used.
+				</para>
 
- <informalexample>
-    <para>
-      Press any key to continue.
-  </para>  
- </informalexample>
+			</listitem>
+			 <listitem>
+				<para>
+					<!--   Do NOT correct this. It is intentionally wrong.   --> The previous three steps should be repeated to complete RHSM registration on each machine.
+				</para>
 
+			</listitem>
+			 <listitem>
+				<para>
+					<!--   Do NOT correct this. It is intentionally wrong.   --> The virtual machine should be started before attempting to ping it.
+				</para>
 
-  <section id="active_tutorial">
-    <title>Writing in the Active Voice</title>
+			</listitem>
+			 <listitem>
+				<para>
+					<!--   Do NOT correct this. It is intentionally wrong.   --> The open source Mumble audio chat application should be used to provide technical support to users.
+				</para>
 
-    <para>
-      To use the active voice, write as if you're composing a list of
-      instructions for your reader. You are not writing a description
-      of what the reader <emphasis>would see</emphasis> if the reader
-      <emphasis>were sitting</emphasis> in front of your computer,
-      seeing what you see as you write. The reader is seeing what is
-      on the reader's own computer screen, and they are doing what you
-      tell them to do.
-    </para>
+			</listitem>
 
-    <para>
-      Here are some examples of sentences written in the passive
-      voice, and how to rewrite them in the active voice&#58;
-    </para>
+		</orderedlist>
 
-    <variablelist>
-      <title>Convert Sentences to Active Voice</title>
-
-      <varlistentry>
-	<term>
-	  Passive voice&#58;
-	</term>
-	<listitem>
-	  <para>
-	    The values of the XML configuration can be found by
-	    parsing the file with the Xerces library in C++.
-	  </para>
-	</listitem>
-      </varlistentry>
-
-      <varlistentry>
-	<term>
-	  Active voice&#58;
-	</term>
-	<listitem>
-	  <para>
-	    Parse the XML configuration file using the <ulink
-	    url="https://xerces.apache.org/xerces-c/">Xerces</ulink>
-	    C++ library.
-	  </para>
-	</listitem>	
-      </varlistentry>
-
-      <varlistentry>
-	<term>
-	  Passive voice&#58;
-	</term>
-	<listitem>
-	  <para>
-	     Open <application>XYZ Viewer</application> by
-	     double-clicking the <guibutton>XYZ Tools</guibutton> icon
-	     from the <systemitem>workstation</systemitem> desktop.
-	  </para>
-	</listitem>
-      </varlistentry>
-
-      <varlistentry>
-	<term>
-	  Active voice&#58;
-	</term>
-	<listitem>
-	  <para>
-	    Double-click the <guibutton>XYZ Tools</guibutton> icon on
-	    the <systemitem>workstation</systemitem> desktop to open
-	    <application>XYZ Viewer</application>.
-	  </para>
-	</listitem>	
-      </varlistentry>
-
-      <varlistentry>
-	<term>
-	  Passive voice&#58;
-	</term>
-	<listitem>
-	  <para>
-	    It was presented earlier in this book the syntax for using
-	    XML configuration files with a Python module imported into
-	    the <application>PyShadowman</application> code base.
-	  </para>
-	</listitem>
-      </varlistentry>
-
-      <varlistentry>
-	<term>
-	  Active voice&#58;
-	</term>
-	<listitem>
-	  <para>
-	    The steps to import the required module into
-	    <application>PyShadowman</application> were explained in the
-	    <ulink url="#">Importing the BeautifulSoup Module</ulink>
-	    section.
-	  </para>
-	  <!-- to make that passive, it would be something like: "It
-	       was explained in the Importing the BeautifulSoup Module
-	       section, the steps to import the required module into
-	       PyShadowman." -->
-	</listitem>
-      </varlistentry>
-
-    </variablelist>
-  </section>
-
-  <section id="active_exercise">
-      <title>Exercise</title>
-
-      <para>
-	Rewrite each paragraph in the active voice.
-      </para>
-
-      <orderedlist>
-	<listitem>
-	  <para>
-	    <!-- Do NOT correct this. It is intentionally wrong. -->
-	    The server got rebooted.
-	  </para>
-	</listitem>
-		
-	<listitem>
-	  <para>
-	    <!-- Do NOT correct this. It is intentionally wrong. -->
-	    The QTextEdit field should be placed in the right corner
-	    of the QMainWindow.
-	  </para>
-	</listitem>
-
-	<listitem>
-	  <para>
-	    <!-- Do NOT correct this. It is intentionally wrong. -->
-	    To begin the code compilation process, GCC is used.
-	  </para>
-	</listitem>
-
-	<listitem>
-	  <para>
-	    <!-- Do NOT correct this. It is intentionally wrong. -->
-	    The previous three steps should be repeated to complete
-	    RHSM registration on each machine.
-	  </para>
-	</listitem>
-
-	<listitem>
-	  <para>
-	    <!-- Do NOT correct this. It is intentionally wrong. -->
-	    The virtual machine should be started before attempting to
-	    ping it.
-	  </para>
-	</listitem>
-
- 	<listitem>
-	  <para>
-	    <!-- Do NOT correct this. It is intentionally wrong. -->
-	    The open source Mumble audio chat application should be used to
-	    provide technical support to users.
-	  </para>
-	</listitem>
-
-      </orderedlist>
-
-  </section>
+	</section>
 </chapter>
+
